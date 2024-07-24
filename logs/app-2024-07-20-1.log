@@ -1,0 +1,484 @@
+2024-07-20 11:36:34 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 11:36:34 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 70756 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 11:36:34 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 11:36:35 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 11:36:35 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2024-07-20 11:36:36 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 11:36:36 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2038 ms
+2024-07-20 11:36:36 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 11:36:36 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 11:36:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 11:36:37 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 11:36:37 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 11:36:38 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 11:36:38 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 11:36:39 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 11:36:39 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 11:36:39 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 11:36:40 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 11:36:40 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.927 seconds (process running for 8.409)
+2024-07-20 11:40:01 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 11:40:01 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 4592 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 11:40:01 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 11:40:02 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 11:40:02 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2024-07-20 11:40:03 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 11:40:03 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1871 ms
+2024-07-20 11:40:03 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 11:40:03 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 11:40:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 11:40:03 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 11:40:04 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 11:40:05 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 11:40:05 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 11:40:06 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 11:40:06 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 11:40:06 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 11:40:07 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 11:40:07 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.576 seconds (process running for 7.931)
+2024-07-20 11:40:16 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 11:40:16 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2024-07-20 11:40:16 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 11:40:16 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 11:40:16 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$QSNoPrTidHl7EYk7NT0HD.OScuk8lMeLkJYHy8XZGjPn1EPI0j/FK,RoleROLE_MANAGER'}]'
+2024-07-20 11:40:17 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 11:40:17 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzUxODE3LCJpYXQiOjE3MjE0NTU4MTcsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.FbqepvdrBu-AMBrNh9p3q0R0Pxo4g71-xXr9z9Z0OmkQZpTOt7qlXzXlANWVvPwY28Vy4LGadcANcXOKZpLYA57rtdxZjk9lyne1euwXv1VNheZqJ14kcizDSp9fVyM0TZdFbUVdifuN_SrIKk-rm4b3ycNzDo_K2uiExY6I8Sn00a_4VLGtWhqtkuJZmHbqMo_T9BOJG5-g3-1I_K72vcMXgEkykfb_YjrlOu0btg2cmCDR0gpQpaGYjUMox-0ck94UCCcfZ0kIUmomblt3SIkjH55VvlgZ3Ay17SbK-1MIbe9wNXcoO6BPOh36Ox03V3gRtlD1OwbkiCkWDZBUFQ ,Age of the Cookie: 1296000
+2024-07-20 11:46:21 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 11:46:21 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 64256 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 11:46:21 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 11:46:22 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 11:46:22 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2024-07-20 11:46:23 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 11:46:23 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2306 ms
+2024-07-20 11:46:23 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 11:46:23 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 11:46:24 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 11:46:24 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 11:46:24 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 11:46:26 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 11:46:26 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 11:46:26 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 11:46:27 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main\com\atquil\jwt_oauth2\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.atquil.jwt_oauth2.entity.UserInfoEntity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-07-20 11:46:27 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 11:46:27 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-20 11:46:27 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.atquil.jwt_oauth2.controller.AuthController required a bean of type 'com.atquil.jwt_oauth2.entity.UserInfoEntity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.atquil.jwt_oauth2.entity.UserInfoEntity' in your configuration.
+
+2024-07-20 11:47:04 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 11:47:04 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 22428 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 11:47:04 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 11:47:06 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 11:47:06 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2024-07-20 11:47:07 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 11:47:07 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2591 ms
+2024-07-20 11:47:07 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 11:47:08 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 11:47:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 11:47:08 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 11:47:08 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 11:47:10 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 11:47:10 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 11:47:10 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 11:47:11 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 11:47:11 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 11:47:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 11:47:12 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 8.298 seconds (process running for 9.427)
+2024-07-20 11:49:11 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 11:49:11 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 20324 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 11:49:11 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 11:49:12 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 11:49:12 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2024-07-20 11:49:13 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 11:49:13 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1782 ms
+2024-07-20 11:49:13 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 11:49:13 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 11:49:13 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 11:49:13 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 11:49:14 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 11:49:15 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 11:49:15 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 11:49:16 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 11:49:16 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 11:49:16 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 11:49:17 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 11:49:17 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.429 seconds (process running for 7.822)
+2024-07-20 11:49:22 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 11:49:22 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-20 11:49:22 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 11:49:22 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 11:49:22 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$EFgBkmVPZdBtTBgIBJXR6.YHI1HYPm78So.SYpR6d9x30dBfqeqsq,RoleROLE_MANAGER'}]'
+2024-07-20 11:49:22 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 11:49:22 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzUyMzYyLCJpYXQiOjE3MjE0NTYzNjIsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.AqDXeVaav-X7R499f2pCorcTtlexFwOtVuT8Yi3q-sgjcx3PMvOsA24_rIZXkq9_RGWdlU4t4n8ptGIMBG5EQv3GlhWR-EE66x_UqfiKBeNDuBoA9RBQgn95pP-QTYbenEpc-bGtCysTnd2CEaOxq0KpPovsxxvz0OxAIE1XRTDo2m4gFW10N_7UPl0yEB1Cd2L2Os17ZuoW_cJRXg_34GfYxS4K7wSOe-hTiNjTf8MdSGvmmNTUp9uWoobnYa218YjlyQNdSjYQKDyTJXf4GHqUAnnuOYv0y-aNCvBqrfhDFt24TXnX1AW8eKNCbzoh8fj9whq8d8Oy1VgH947-cw ,Age of the Cookie: 1296000
+2024-07-20 11:52:08 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 11:52:08 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 47200 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 11:52:08 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 11:52:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 11:52:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2024-07-20 11:52:10 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 11:52:10 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2127 ms
+2024-07-20 11:52:11 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 11:52:11 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 11:52:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 11:52:11 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 11:52:12 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 11:52:13 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 11:52:13 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 11:52:13 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 11:52:14 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 11:52:14 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 11:52:15 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 11:52:15 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.139 seconds (process running for 8.22)
+2024-07-20 11:52:34 [http-nio-8080-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 11:52:34 [http-nio-8080-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-07-20 11:52:35 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 11:52:35 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 11:52:35 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$AY2NYZ9jiGRwAYR6qlAb6OZCJ2..X/Zc2MTbOHcs.5PYummBZLTeq,RoleROLE_MANAGER'}]'
+2024-07-20 11:52:35 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 11:52:35 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzUyNTU1LCJpYXQiOjE3MjE0NTY1NTUsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.YdlCli1msyIAjvMZZu9mthAkTCkHDJZDEOe9_rKJGUIPO6CbIfQKjE0Hhg0YzYn7bDGNyCi8z8yPvHGP-7CTPAGDla0FpJkISDfrl1cESqhB64lYmqncthXCLu47TU_k2rqEwBFaz7yecEeA7SbqprSSdPS6oJV5yCW_PUWPy3WgL_YEUSR65gIdX8cKCcXdjZVQphrZQOB0BA9zm4DZKaXUfsO3ldVNKmz7xx0Ou4kXPKpToJGH65jur-6SnvUjJNAnQZIFoLLnfKb8K27vYBGLGwNkPpvEWleK9KOqZT0PvgI0Nsh2wUb0a0VWfWruqCLCsRns9RJUviscNnm4hg ,Age of the Cookie: 1296000
+2024-07-20 11:58:00 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 11:58:00 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 70588 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 11:58:00 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 11:58:01 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 11:58:01 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 3 JPA repository interfaces.
+2024-07-20 11:58:02 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 11:58:02 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2572 ms
+2024-07-20 11:58:03 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 11:58:03 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 11:58:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 11:58:03 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 11:58:03 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 11:58:05 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 11:58:05 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 11:58:05 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 11:58:06 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 11:58:06 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 11:58:07 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 11:58:07 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.748 seconds (process running for 8.964)
+2024-07-20 11:58:10 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 11:58:10 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-20 11:58:10 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 11:58:10 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 11:58:10 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$IhvSS6sbeAtyGBJ9N85NsOq5mXfbg6N8s6KMgnpjoVqegqWmtzA.S,RoleROLE_MANAGER'}]'
+2024-07-20 11:58:11 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 11:58:11 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzUyODkxLCJpYXQiOjE3MjE0NTY4OTEsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.SUKHp0n3w1ro8g7zGe5Zgvtpi6rIKJX7MNx9WxP32VBmETiH3E4tGZPI8p_nxItkVte2laaavblgtqQCkHEHhzj8TsIoa1GGikuKv6t_lgDcsiNnnWGfAMP0oFdRuigMwkbedlk1Fe4N9XZR57tVbng3sWeATWDsXNmBsEIfQWIAhsueV6bHyg-unDXkDV6HQxl7kTfdnESNe-WiMG5iQqAsVtaAfcP--8Z65syC7OUC4gpl_aNQ-NXXOcqhLvgtStr_drZH83986oG9f55l-Tw3kIWWxwDNIrUnoFUeuDa2Wqri1uaCyBc7CK5eUOsH-CbJjHqRYfDpEBQXqKKa6w ,Age of the Cookie: 1296000
+2024-07-20 12:02:00 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 12:02:00 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 68196 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 12:02:00 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 12:02:01 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 12:02:01 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-07-20 12:02:02 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 12:02:02 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1865 ms
+2024-07-20 12:02:02 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 12:02:02 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 12:02:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 12:02:03 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 12:02:03 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 12:02:04 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 12:02:04 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 12:02:05 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 12:02:05 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 12:02:05 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 12:02:06 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 12:02:06 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.883 seconds (process running for 7.975)
+2024-07-20 12:02:10 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 12:02:10 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-20 12:02:10 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: null
+2024-07-20 12:02:10 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:02:10 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:02:10 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$UhnrmbEyxbbeRpNmqxCAJ.oXtvdC8m/xCeB70AsyWFAGELtofpNci,RoleROLE_MANAGER'}]'
+2024-07-20 12:02:10 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:02:10 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzUzMTMwLCJpYXQiOjE3MjE0NTcxMzAsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.RsWE_jb3_fzZk3mlwh3JRxP_xYVVvRax_ZOBN69sz9MM1jXC-X3AMydgeRxs9Hka7Z3b8SZOEwD5yQyN-EiR09rXi8enPdnTFDhK3GDr3oJMMycyHykv-zWfiEzAQgPSDSLnzrO3f49DklTQ995v0Ky6Pu1tub3NBGwD0nB8haN5TRZ5SW6UPJAClDV9MvupIicv3gGpwa61fTrDZkxs9m4TidD7D-mhDGxL7_Z97URIvQyRWSAR5VwyWO4c53pU4tNqPxh40uYSwLYIcu3e4Ft524ziIGUKv0BXM8Gs9fjzlA3YvcNC9ubmBGYEaqSDh1rbxAN4j30hCfVX75j97w ,Age of the Cookie: 1296000
+2024-07-20 12:10:41 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 12:10:41 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 69316 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 12:10:41 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 12:10:42 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 12:10:42 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2024-07-20 12:10:43 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 12:10:43 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1943 ms
+2024-07-20 12:10:44 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 12:10:44 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 12:10:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 12:10:44 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 12:10:45 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 12:10:46 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 12:10:46 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 12:10:47 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 12:10:47 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 12:10:47 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 12:10:48 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 12:10:48 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.337 seconds (process running for 8.32)
+2024-07-20 12:11:39 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 12:11:39 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2024-07-20 12:11:39 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Manager
+2024-07-20 12:11:39 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:11:39 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:11:39 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$OoiM45DyM2hlwrTqY/mLCuSLOrHUfcRJ.w.ZVzFwusVBtGkzYCBZW,RoleROLE_MANAGER'}]'
+2024-07-20 12:11:40 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:11:40 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzUzNzAwLCJpYXQiOjE3MjE0NTc3MDAsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.NoHvtmUWbVDzgotqplFb-vCf1Vt6zr8P3HkMqkn-n6OEAe2Zs6kgCOzgvS_3CwofrKmq1H5_2aX0Mzk7gzIamWostY-FDGrsloWbFZjAfBnJM7Z0aQdjMcZH6aYrg2XeGy2VAi8TCtGUiBzb-xtX7yMZdakkHxRDQ04fku0UE4FwRMQPRrVx6xC9cq3atDcdMpZiK2MUym5fc9o2wyEZQoEIYnNFSmAetsDeZhx1MmD8mKHYJJqcI7PHYg9wdgsD1QQ4sMzQH-QWRO92jSlWg53JfAN8RN9uALPp45mLa3T3kTx55R5EBBXmYUL1t5cu1hSDZbDReXSo2HbuiGi_hw ,Age of the Cookie: 1296000
+2024-07-20 12:12:19 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 12:12:19 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 59372 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 12:12:19 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 12:12:21 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 12:12:21 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2024-07-20 12:12:21 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 12:12:22 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2073 ms
+2024-07-20 12:12:22 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 12:12:22 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 12:12:22 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 12:12:22 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 12:12:23 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 12:12:24 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 12:12:24 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 12:12:24 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 12:12:25 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 12:12:25 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 12:12:26 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 12:12:26 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.753 seconds (process running for 7.796)
+2024-07-20 12:12:35 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 12:12:35 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-20 12:12:35 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Manager
+2024-07-20 12:12:35 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:12:35 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:12:35 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$F72MMFWjR8jSTs2afgipfOlAQhTp0LnYju2xbP7opzSqgBB5H6M2i,RoleROLE_MANAGER'}]'
+2024-07-20 12:12:35 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:12:35 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzUzNzU1LCJpYXQiOjE3MjE0NTc3NTUsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.B_nUMlXW404VzUeTm4o9YluW0HPkZlijOYrspPfwrsIvJ1B90JCsWXEhN_bA-zVyy3wSwDlnqi641yA9PgM94vATU0FPrNJnHAVDjHG3e4IIYN3_DIEhmd1Tvm_HPmfcXmgTY_BltaZCxjMYHWZkJ-b64o_Ae49FfSUDLnTxmWEJY1wnExNeqkvmsYkUEPtUgcox0QgbjstJ6WuSnNw8IU76vW4JSP6gXXbiZr8bZCQ8XIHQStdpfHxN9RYIX1j4BU0ixLkGtEco8oMpe1DtgN4TutK8HuJxb-7SoYVwkmQoMTt5rEDHo1ymDNC68j1mXtHD0wOI8ZwrZi0UOhPHYw ,Age of the Cookie: 1296000
+2024-07-20 12:46:59 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 12:46:59 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 7240 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 12:46:59 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 12:47:00 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 12:47:00 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+2024-07-20 12:47:01 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 12:47:01 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2007 ms
+2024-07-20 12:47:01 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 12:47:01 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 12:47:01 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 12:47:02 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 12:47:02 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 12:47:04 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 12:47:04 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 12:47:04 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 12:47:05 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 12:47:05 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 12:47:06 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 12:47:06 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.552 seconds (process running for 8.533)
+2024-07-20 12:47:18 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 12:47:18 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-20 12:47:18 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:47:18 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:47:18 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$iZ4oQtqx53.MqWk0r45/tOYL2maPg5bezhBQjQhlRez/CM3u7GfWq,RoleROLE_MANAGER'}]'
+2024-07-20 12:47:18 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:47:18 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:47:18 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU1ODM4LCJpYXQiOjE3MjE0NTk4MzgsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.p2lkOuJfQHdaZpbiSsGQukV0MlcczEEi3Qt5sKJqZxdtROOq6wG6cHhocfqLFNjdUlgI7q5blwjQAwTKDJ0GT0yLK6IRCBLKx_EBEc_FUiNjzHNwcbjmowgI_LYWjs5IoGYsoCECZ7puq9dUIZDHP0-3jvS6mJDW1xLiu6ccSKZaNS5WdjSlbMVBJ6rnEYP5M6KhrpD3cS6KwhUQ6SRE2_HUfTOIEWVOEXhsugkBWQJh9E3rZx05shPGtDW3XzZnvkOKE19qfknEC1IHvuW-1UONwpIROWh6GlpJGCfwbcs_6-lR5bTDIHuifwN4lqz_hiCXYNLA8BTX9xUtUnnxAA ,Age of the Cookie: 1296000
+2024-07-20 12:47:20 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:47:20 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:47:20 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$iZ4oQtqx53.MqWk0r45/tOYL2maPg5bezhBQjQhlRez/CM3u7GfWq,RoleROLE_MANAGER'}]'
+2024-07-20 12:47:20 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:47:20 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:47:20 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU1ODQwLCJpYXQiOjE3MjE0NTk4NDAsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.pOshOCW7R4Z0vPYx63H_stghUz0VabScYrOMdv7gwsId8mOGgB4t3jSIfR8Sqpc4IiNfT9nXIDd2r2U2f70Cynz6NVzrs_yzsexzTXWlWGLGYfxVPWz8DXAXRTR6kNMANC3njAC60BP7TfC0anVr4HkBJOS1PaQDyBc-0CmJe-oxeeK5OXn4IUyW2ykRuGh5IhCZxbPBx4pVzDRFm1J7QcvNh_0ZedZBELf-AqWx9uUkUNx8-1FH55728agIPV1P4mJi9c6JrwiYBK97TLffvkpOEYHzHNpmC35ywditHeuggTgcIgHEWQ3ClAbIMMt1E5izno3QtiCrf_U5rH8_8Q ,Age of the Cookie: 1296000
+2024-07-20 12:47:23 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:47:23 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:47:23 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$iZ4oQtqx53.MqWk0r45/tOYL2maPg5bezhBQjQhlRez/CM3u7GfWq,RoleROLE_MANAGER'}]'
+2024-07-20 12:47:23 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:47:23 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:47:23 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU1ODQzLCJpYXQiOjE3MjE0NTk4NDMsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.nYovNuz-btIgjJrRG4IckE4l6ryMNdZpIt3RWCdec62OS_UkxdepHnPOgL_gCsryPjiJv2UY8JstLPmlEPUjK3IaAHgoY-_lcTFdh144HAUE75eFH1kiuiZKcvN-FkVGCajTk5xVxHjrv-oe-l8tUJgEz98x8VSVI9TUKF-REjfB6gXXukVExhvEuXrs6l61J_KLMr-CM7fs2zBUfIkxOmjmzEcsMSdZ2Tb8QLrEArwgXY17g4Di3xA7wt-h7L4GWDGrRo_ErYscPfcgFH71NbXxPND545AjbIrbcsG54cA7AoNih4ado4155ztmQ1rDejQjbiW_-A9eTzZabPjERQ ,Age of the Cookie: 1296000
+2024-07-20 12:52:01 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 12:52:01 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 21520 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 12:52:01 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 12:52:02 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 12:52:02 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-07-20 12:52:04 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 12:52:04 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2585 ms
+2024-07-20 12:52:04 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 12:52:04 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 12:52:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 12:52:04 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 12:52:05 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 12:52:06 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 12:52:06 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 12:52:07 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 12:52:08 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 12:52:08 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 12:52:08 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 12:52:08 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.959 seconds (process running for 9.176)
+2024-07-20 12:52:41 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 12:52:41 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-07-20 12:52:42 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:52:42 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:52:42 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$jetJTSM0Nk9CUbjt7707tuaEr/AkJmxf8jvNwWtaxWL5KCgazfcYu,RoleROLE_MANAGER'}]'
+2024-07-20 12:52:42 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:52:42 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:52:42 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU2MTYyLCJpYXQiOjE3MjE0NjAxNjIsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.au9Q2Zn8iQ6iBoyT0JiNzVcwrhNK9-dxvTVB-qONgMP365R8UpGIxXRHUt0-o71AaNjvqnfmYaGojihsDl9iTPey19xJyrNFYaLtaz4mr9nRY19Ci9lobCNhVnv2sjzCxYDkswf32YTCNpk5WBBYEHbefI5092u2J1s1mDVzcJY222847hcKoP4l6ciBf32QhHqP0LHBG32Yti26gTOE3YD17uZ8abxEYV-vcEbMuN1ZB8v-JLU40RQq1yUkYQUl-CNDuwvm1GXfiR59L2ydG3dJMtdOOGxAnOPnd-X3inyVfU49qralmImfELp9HztjjBLB-alklrGeQzKnR32t-Q ,Age of the Cookie: 1296000
+2024-07-20 12:52:44 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:52:44 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:52:44 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$jetJTSM0Nk9CUbjt7707tuaEr/AkJmxf8jvNwWtaxWL5KCgazfcYu,RoleROLE_MANAGER'}]'
+2024-07-20 12:52:44 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:52:44 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:52:44 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU2MTY0LCJpYXQiOjE3MjE0NjAxNjQsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.RLB9JWz0mgywgyMUt16idYHl_4R4akTNg14EsQUuFeHVx99SwolUK0MQPYW-bsSLfLNsSRMadgrrGJy90WbpA2N9f52tsfmAPnTF5RmZBONyTudJ-tVkeub7PYpAwPRe_dW5wWTlzelLdFtlU8vrzz4oJ0X8PI8oV82XjCNjtgBqvcYaO_1RSK8NjYaoPzn01Kg4sVYpGMG8L2wV5er4hJdvEk5DM9qCgyAD4yUhpJTFloCAUA50eWHT0xdjUa3LI4py6K9a9NamkQZOCtQPRQ_Xdg5tIp-WkGaFQZ-tHPo_eSBYcrxNewpT7dapjEe7bv3nZ2Nq_cUy2TBqa-mLgA ,Age of the Cookie: 1296000
+2024-07-20 12:55:05 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 12:55:05 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 65576 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 12:55:05 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 12:55:06 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 12:55:06 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2024-07-20 12:55:07 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 12:55:07 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2326 ms
+2024-07-20 12:55:08 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 12:55:08 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 12:55:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 12:55:08 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 12:55:09 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 12:55:10 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 12:55:11 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 12:55:11 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 12:55:12 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 12:55:12 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 12:55:13 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 12:55:13 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 8.321 seconds (process running for 9.29)
+2024-07-20 12:55:51 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 12:55:51 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-20 12:55:52 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:55:52 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:55:52 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$0bakUQVrQ2vp60un1x1OpeRfbWTWbCSBTHnLj9FJkfLso9YdmjX5i,RoleROLE_MANAGER'}]'
+2024-07-20 12:55:52 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:55:52 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:55:52 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU2MzUyLCJpYXQiOjE3MjE0NjAzNTIsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.iy2AiSw16SiHbfkjZZEXEmgirK-kAQrZKyHygjQNY3cwaHFvdT5O5isGk0p94QnzDQixxvJr6NuzAnMF1TtsU8H2RnSMw3uGHq44g8fFmKbRycPuv0pal5ysQISAaIVuquJwZwhNg4svfZEAPjfkhRCssS0oFpRviyn0S-juGPI1iUTThVm4ATJRq3eqm65N6kegPpid6uLVdLeM5jmN9x7XLFL07UUhuQNbcf-hobgtUwSUpmg5N80bymDQ8Iyj0cBFYX0Vt5_wxHUxPYBoJR-GZ9URC9dUg98sjVrYq22NSkxqGXobOkMCzEBc7-QptUZOmg0sODEfjfo9xTsDlQ ,Age of the Cookie: 1296000
+2024-07-20 12:55:53 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:55:53 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:55:53 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$0bakUQVrQ2vp60un1x1OpeRfbWTWbCSBTHnLj9FJkfLso9YdmjX5i,RoleROLE_MANAGER'}]'
+2024-07-20 12:55:53 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:55:53 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:55:53 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU2MzUzLCJpYXQiOjE3MjE0NjAzNTMsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.BejissN-b0BYQ253GYhy-hqctq12GfpnAarFhRs873WrXK4rW5pgRyaknN4FIQihXtmC9aYspoy4RDJjWlBDNbvvQEr5JIgxEFNhU532z0JaBDZ_ZeUkjNTKi1kVaB2JgTi1wwxCS3d28nhaLajeK0KC5IXprDXrAc1gsd1VSBmjpCY0SSQ6u3IEKJS4CA4b6CWk1mL0ti5BZID47dx9_U1e7v8tK9zfTsLLtNqi0lMT_fLtCkXcQGE-4VL_7nBXRTH6C6XdB8GFakx_WT1DK3Nm7H814BQsMJ5EEmEYh4AR4m0zrBVQyXb7Z90uj9eOl1yMlIHest2-evEH8rrinA ,Age of the Cookie: 1296000
+2024-07-20 12:59:14 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 12:59:14 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 16072 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 12:59:14 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 12:59:15 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 12:59:15 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2024-07-20 12:59:16 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 12:59:16 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1907 ms
+2024-07-20 12:59:17 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 12:59:17 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 12:59:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 12:59:17 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 12:59:17 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 12:59:18 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 12:59:18 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 12:59:19 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 12:59:20 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 12:59:20 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 12:59:21 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 12:59:21 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.892 seconds (process running for 8.116)
+2024-07-20 12:59:27 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 12:59:27 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-07-20 12:59:28 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:59:28 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:59:28 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$Aq1aOvC3XQ305fulwHp3E.IzEaiNS.u9bToFLMeUyyr2/ZaOEQVY2,RoleROLE_MANAGER'}]'
+2024-07-20 12:59:28 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:59:28 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:59:28 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU2NTY4LCJpYXQiOjE3MjE0NjA1NjgsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.Y0-59XBKFJsTpxUTMnJnNhvO5a30zP5-ojRG_zeJ86dOTjzGMdGBciCQT3Eig4kk8PBCAnSP8bDSpvn-KkwOZDxEuWyKmEtwPLfk6eh1tFrOTg60B2SBqy8k4LHwUcx0Tq_rDs36i-R9rLs_Stw8G50U1NsPaT1awxnEiXwxeJGkfkNvcjtJ5P3B-kEx2ykGzoBppGidFSjM4YuHLHswQGye4VffJLS2TcVMVPMSmJS7gQ62io8ihzAMeW_oarkmlt-416Nudprz5vd0SWTCiril9VxCpJZl7H-5HggKSAsxSvDUXyJKNp7xLmfKFTjP2CMn2-GfTtSs99u_PyGIyA ,Age of the Cookie: 1296000
+2024-07-20 12:59:30 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 12:59:30 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 12:59:30 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$Aq1aOvC3XQ305fulwHp3E.IzEaiNS.u9bToFLMeUyyr2/ZaOEQVY2,RoleROLE_MANAGER'}]'
+2024-07-20 12:59:30 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 12:59:30 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 12:59:30 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU2NTcwLCJpYXQiOjE3MjE0NjA1NzAsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.ec8lsVYTLbNIfbwOKxfsm3PZ26aoJzCUQ6hvO6uU3AORidvITgxtkEDtpPHCNSU_9jusC1RXAykSsxp1rauPSL4w3bsRq4ke2kookv1Xhg9U_bH6qGEJa1LABAvSdtT1DBYYc0bu-NvQaTiCvn59NBTH2GApqOV8Z-XA5Hm3OlAs2Rz6t9OUF5mXmPlHtBdW750pqM3nC6_KjzaYfhzSERtL8c1Ho4cX9cCD-FE8lNn9T3GJ4EnRoJM8x8JwIM00nxI4wCHNrc7s3Obs6P-uJZBCQcs36YBaKLWueSEkmLaIfFxRdt32oUW8wXohoaHTfEQ1ACAIfYO0KC6o4L0GBw ,Age of the Cookie: 1296000
+2024-07-20 13:01:06 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 13:01:06 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 61552 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 13:01:06 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 13:01:07 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 13:01:07 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 3 JPA repository interfaces.
+2024-07-20 13:01:08 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 13:01:08 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1808 ms
+2024-07-20 13:01:08 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 13:01:08 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 13:01:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 13:01:08 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 13:01:09 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 13:01:10 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 13:01:10 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 13:01:11 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 13:01:11 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 13:01:11 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 13:01:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 13:01:12 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.735 seconds (process running for 7.571)
+2024-07-20 13:03:34 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 13:03:34 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 71808 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 13:03:34 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 13:03:35 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 13:03:35 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2024-07-20 13:03:36 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 13:03:36 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1883 ms
+2024-07-20 13:03:36 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 13:03:37 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 13:03:37 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 13:03:37 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 13:03:37 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 13:03:39 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 13:03:39 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 13:03:39 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 13:03:40 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 13:03:40 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 13:03:41 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 13:03:41 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.997 seconds (process running for 8.04)
+2024-07-20 13:03:46 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 13:03:46 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-20 13:03:47 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-20 13:03:47 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 13:03:47 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 13:03:47 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$BdNEbuXrLrCnHTJDiSPFJ.fBrdf14NoFAQKiU8nSEgYDfBqKrJb3a,RoleROLE_MANAGER'}]'
+2024-07-20 13:03:47 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 13:03:47 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 13:03:47 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU2ODI3LCJpYXQiOjE3MjE0NjA4MjcsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.fNt5xuHrzvzKeDOnG1EFjYpFR9q6zkF286ovU5LxQ_m3NChd85LcVC3kSzv9gsvLB5EXEVWP-DGp3omQZ_7zHDWGZFKOnM-fdT_19fdraGI7ibJkhgvjF9_9w5wQNJq2NXFjBAxm9BxmwYrnu7V8APqcL26cMSgApUkENCmchrmB0KLjMic56PYD0w1kWoLneiGtrnlGcGADtKQcbI8ry2AhDefn73fQGQATfzA7XQo17q3dnZKGDvr4dr6dFDSBZ2RUrs0ZgLdJ8gNXACnlebHqXFae7nHXZDLg6w_jOTjAr043g-MyChbiaJZRGktMwvTgpzF2U2n4ja5loh1xuw ,Age of the Cookie: 1296000
+2024-07-20 13:06:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Manager]
+2024-07-20 13:06:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 13:06:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 13:06:01 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$BdNEbuXrLrCnHTJDiSPFJ.fBrdf14NoFAQKiU8nSEgYDfBqKrJb3a,RoleROLE_MANAGER'}]'
+2024-07-20 13:06:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 13:06:01 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 13:06:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU2OTYxLCJpYXQiOjE3MjE0NjA5NjEsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.IPFP1LhM35GU_V3KFoFvwf1rji2tUcgln517F-gehm3BeLDZcWqPAlYG3ChXnHdieFGcafTYhdXumoiYd2oIDMRntYsu6A2pjZNHvDQW9NFtZIwBdv6OyDtPA7_vceneBYVamkT4JuurbbCtb7Vu8RwneSnTv8SMlvTAUa8hnWYJu8RICyxPZHTM_0XNymLXH8kr-LtHQ33Mxht55dqeCOR9eTS-NPVk54XCAYjkllpavp33JbdyIRBZdFCR0sxqVJsn5rgo5JpZNoqvVOKQnN-7MpmagNM6wOBw1OqQWE7hr9vESvpWR8EvP4AQ06ayYDtyDaxLidI7v-Aob51tQg ,Age of the Cookie: 1296000
+2024-07-20 13:09:12 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-20 13:09:12 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 65552 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-20 13:09:12 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-20 13:09:13 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-20 13:09:13 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2024-07-20 13:09:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20 13:09:14 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1972 ms
+2024-07-20 13:09:14 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-20 13:09:15 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-20 13:09:15 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-20 13:09:15 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-20 13:09:15 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-20 13:09:16 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-20 13:09:16 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-20 13:09:17 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-20 13:09:18 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-20 13:09:18 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-20 13:09:18 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20 13:09:18 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.029 seconds (process running for 8.225)
+2024-07-20 13:09:23 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20 13:09:23 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-20 13:09:23 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-20 13:09:23 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com LOGIN is done!!!
+2024-07-20 13:09:23 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-20 13:09:23 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$PRMmWyje7entrs81bfDQoeNXqy.TfCoYniljp8hbQ00Cs3QhF2eQG,RoleROLE_MANAGER'}]'
+2024-07-20 13:09:23 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-20 13:09:24 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Manager 
+2024-07-20 13:09:24 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJtYW5hZ2VyQG1hbmFnZXIuY29tIiwiZXhwIjoxNzIyNzU3MTY0LCJpYXQiOjE3MjE0NjExNjQsInNjb3BlIjoiUkVGUkVTSF9UT0tFTiJ9.IT9OlKgq3Afkc082aQo-tVgJKU-o3Ry7VkJPzTapT98DJRrz-3Z1PHvkowCLW9Qtx8IBuVOi7NYQw152wp_bACXbH-8DZ3aR8J9d3ZToIVfg_W84jbjUDs-3iJlw0w2fTAwmUTcjtUqysMFtA4UrgYpURjZdGk8QRLp7a7Sp0V0QNI3IusWhLUfiMSnwdnGk8f1q92ajSgp7J85PmTHuT_Xuxkp0rTzRoTzoDVoN4OLUsELD3ZG49SYjiBMgnDbbQKYU-AYyQACAoJCHLNM65q26ql6vFmx4XlLNqZRxKpo6Pll6c96VLAox1oxd2WkS4xUfR4vT-BRNOdmA_7RzPw ,Age of the Cookie: 1296000
+2024-07-20 13:09:26 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Manager]
+2024-07-20 13:09:26 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: User already logged-in !!!
+2024-07-20 13:09:26 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User manager@manager.com tried to LOGIN already exists!!!, 
+2024-07-20 13:09:26 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-20 13:09:26 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=1, username='Manager,Email_Idmanager@manager.com,Password$2a$10$PRMmWyje7entrs81bfDQoeNXqy.TfCoYniljp8hbQ00Cs3QhF2eQG,RoleROLE_MANAGER'}]
+2024-07-20 13:09:26 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
