@@ -60,6 +60,7 @@ public class SecurityConfig  extends SecurityConfigurerAdapter<DefaultSecurityFi
                     ex.authenticationEntryPoint((request, response, authException) ->
                             response.sendError(HttpServletResponse.SC_UNAUTHORIZED, authException.getMessage()));
                 })
+
                 .httpBasic(withDefaults())
                 .build();
     }
