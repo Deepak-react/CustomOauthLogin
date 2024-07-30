@@ -1,5 +1,6 @@
 package com.atquil.jwt_oauth2.logClass;
 
+import com.atquil.jwt_oauth2.dto.*;
 import com.atquil.jwt_oauth2.entity.*;
 import com.atquil.jwt_oauth2.repo.*;
 import com.auth0.jwt.interfaces.*;
@@ -63,5 +64,14 @@ Logger logger = LogManager.getLogger(LogFile.class);
     public void basicLogs(Boolean logs){
         logger.info("boolean value: {}",logs);
     }
+
+    public void basicLogs(EmpDto empDto){
+        logger.info("The Employee Payload is : {}",empDto);
+
+    }
+    public void basicLogs(EmployeeEntity employee){
+        logger.info("The employee entity is : {}",employee);
+    }
+
 
 }

@@ -1,7 +1,6 @@
 package com.atquil.jwt_oauth2.entity;
 import jakarta.persistence.*;
 import lombok.*;
-import org.apache.logging.log4j.core.*;
 
 import java.util.*;
 
