@@ -1,6 +1,7 @@
 package com.atquil.jwt_oauth2.config.userConfig;
 
 import com.atquil.jwt_oauth2.entity.UserInfoEntity;
+import com.atquil.jwt_oauth2.roles.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -18,12 +19,7 @@ public class UserInfoConfig implements UserDetails { // UserDetails is nothing b
     @Override
 
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return  Arrays
-                .stream(userInfoEntity
-                        .getRoles()
-                        .split(","))
-                .map(SimpleGrantedAuthority::new)
-                .toList();
+        return userInfoEntity.getRoles().getAuthorities();
     }
 
     @Override

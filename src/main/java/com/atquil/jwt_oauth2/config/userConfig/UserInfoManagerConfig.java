@@ -7,9 +7,14 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
-@RequiredArgsConstructor
+
 public class UserInfoManagerConfig implements UserDetailsService {
+
     private final UserInfoRepo userInfoRepo;
+
+    public UserInfoManagerConfig(UserInfoRepo userInfoRepo) {
+        this.userInfoRepo = userInfoRepo;
+    }
     @Override
     public UserDetails loadUserByUsername(String emailID) throws UsernameNotFoundException {
         return userInfoRepo.findByEmailId(emailID).map(UserInfoConfig::new).orElseThrow(()-> new UsernameNotFoundException("UserEmail: "+emailID+" does not exist"));

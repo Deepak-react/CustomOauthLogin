@@ -1,6 +1,7 @@
 package com.atquil.jwt_oauth2.controller;
 
 import com.atquil.jwt_oauth2.dto.*;
+import com.atquil.jwt_oauth2.entity.*;
 import com.atquil.jwt_oauth2.service.*;
 import jakarta.servlet.http.*;
 import lombok.*;
@@ -16,11 +17,11 @@ import org.springframework.web.bind.annotation.*;
 
 public class AuthController {
     private final AuthService authService;
+
     @PostMapping("/sign-in")
     public ResponseEntity<?> authenticateUser(Authentication authentication, HttpServletResponse response, HttpServletRequest request){
         String Ipaddress = request.getRemoteAddr();
-         Boolean value= authService.logUserActivity(authentication.getName(), "LOGIN" , Ipaddress);
-
+       Boolean value= authService.logUserActivity(authentication.getName(), "LOGIN" , Ipaddress);
         if (value){
             return null;
         }
@@ -38,5 +39,10 @@ public class AuthController {
             return ResponseEntity.ok(response);
         }
 
-
+    @PostMapping("/registerUser")
+    public ResponseEntity<UserInfoEntity>  registerUser(@RequestBody UserInfoDto userInfoDto){
+        System.out.println("The user DTO is :" +userInfoDto);
+        UserInfoEntity userInfo = authService.registerNewUser(userInfoDto);
+        return ResponseEntity.ok(userInfo);
+    }
     }

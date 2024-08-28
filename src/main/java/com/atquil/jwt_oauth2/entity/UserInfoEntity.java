@@ -1,4 +1,5 @@
 package com.atquil.jwt_oauth2.entity;
+import com.atquil.jwt_oauth2.roles.*;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -21,7 +22,6 @@ import java.util.*;
         @Column(name = "USER_NAME")
         private String userName;
 
-
         @Column(nullable = false, name = "EMAIL_ID", unique = true)
         private String emailId;
 
@@ -31,8 +31,9 @@ import java.util.*;
         @Column(name = "MOBILE_NUMBER")
         private String mobileNumber;
 
+        @Enumerated(EnumType.STRING)
         @Column(nullable = false, name = "ROLES")
-        private String roles;
+        private Role roles;
 
         @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
         private List<RefreshTokenEntity> refreshTokens;

@@ -1,37 +1,36 @@
 spring:
-  security:
-    user:
-      name: deepak
-      password: dpk
-  h2:
-    console:
-      enabled: true
   datasource:
-    url: jdbc:h2:mem:atquilDB
-    username: sa
-    password:
-    driverClassName: org.h2.Driver
+    url: jdbc:sqlserver://localhost:1433;databaseName=atquilDB;encrypt=false;
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: dpk
+    password: 1402
+
   jpa:
-    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect #To link all the java Objects to the database fields
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
     show-sql: true
     hibernate:
-      ddl-auto: create-drop #When the application is stopped it deletes all the table and recreate another table , we can also use update in this instead of drop.
+      ddl-auto: create-drop
+
 logging:
   config: classpath:log4j2.xml
   level:
-    com:
-      org.springframework.security: trace
-      atquil:
-        jwt_oauth2:
-          logClass: debug
-
-
-
-    #To generate logs that will be used to check  errors
+    org.springframework.security: trace
+    atquil.jwt_oauth2.logClass: debug
 
 jwt:
   rsa-private-key: classpath:certs/privateKey.pem
   rsa-public-key: classpath:certs/publicKey.pem
 
 server:
-  max-http-header-size: 64kb
+  tomcat:
+    max-swallow-size: -1
+  port: 8080
+  address: 0.0.0.0
+
+servlet:
+  multipart:
+    max-file-size: 50MB
+    max-request-size: 50MB
+    enabled: true

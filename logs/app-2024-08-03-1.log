@@ -1,0 +1,595 @@
+2024-08-03 09:51:27 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-08-03 09:51:27 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 25680 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-08-03 09:51:27 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-03 09:51:29 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 09:51:29 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces.
+2024-08-03 09:51:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-03 09:51:30 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2742 ms
+2024-08-03 09:51:31 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-08-03 09:51:31 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 09:51:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03 09:51:31 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-03 09:51:32 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 09:51:34 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 09:51:34 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 09:51:34 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-03 09:51:35 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03 09:51:35 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-08-03 09:51:36 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-03 09:51:36 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 8.794 seconds (process running for 9.974)
+2024-08-03 09:59:20 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-03 09:59:20 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 176 ms
+2024-08-03 09:59:21 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 09:59:21 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 09:59:21 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 09:59:21 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 09:59:21 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 09:59:22 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 09:59:22 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NTUzNjIsImlhdCI6MTcyMjY1OTM2Miwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Y8qs2kXItA2yA20Q9_C0Rs37G5tcsI87GBfbqDXVDugM64hIw8hzX_ngw3wvmpzeV_wVnyVGLfRESzXvKQFQXKvw9JjUQVE2oVRN8IZov-jdoHRKf1z_VJgsYH8W_1QW7bGiPjDRFpl5yKVv4mejWs3JAP8gwQCCOZ-ylwyN0R6uNuJ9bltat1M_WvCgJlUemDsu0xuwCVExKk-G2ypCo75YX5o2B8BKpYZsZWZQOLUMLXgSA4Y-oybTvGLJCkyqfp1swnTnC9yC5XYLK6FXy4tTQ93JhuHoAkeVXJfikWrubwnXs8uTjQRh9SaRDg1w7YfARNejik21x-BcQxS9HA ,Age of the Cookie: 1296000
+2024-08-03 10:01:05 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-08-03 10:01:05 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Deepak, empEmailId=deepakdpk1810@gmail.com, empRole=, salary=65000 , mobile=9500979057, isNew=false)
+2024-08-03 10:01:05 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} deepakdpk1810@gmail.com
+2024-08-03 10:13:43 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 10:13:43 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 10:13:43 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 10:13:43 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 10:13:43 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:15:08 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 10:15:08 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 10:15:08 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 10:15:08 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 10:15:08 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:35:18 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 10:35:18 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 10:35:18 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 10:35:18 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 10:35:18 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:35:18 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 10:35:18 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NTc1MTgsImlhdCI6MTcyMjY2MTUxOCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Axg7wL4QPbpoaSVPbsk3etsC7gGjBCHDHwZ4cj2fvXu08p_wK64FdndlVEfbqwiqgIoGAx7Ja0Ekc6LhDh4VfMBEOe_21wEzABeUqAZ05B9_oCRAte_U8Ge7kePIQLAcDGJjh3gmx91ZX1kqkGo123eK7K2Iewkm5UpwhV2fkCIUb0RreiTteLg5tMMmjka653L-naVPq_yfVdTnwhs7fe3ho8ElJhrWp4GweVRP7FtGE1MoLoeZL0taRc2Y9O_BsXla4_iySzcMso5YgTjffZzsC0Xuhys2dXh5CDLi7kVIbl5loRsAPHbBkcl7ayk3bgtJS3MYk0zrOw1-ckG_HA ,Age of the Cookie: 1296000
+2024-08-03 10:36:49 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 10:36:49 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 10:36:49 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 10:36:49 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 10:36:49 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:38:31 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 10:38:31 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 10:38:31 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 10:38:31 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 10:38:31 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:38:31 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 10:38:31 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NTc3MTEsImlhdCI6MTcyMjY2MTcxMSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.aamQqploAOuUjBEdFVXAl1J-I5n_F4LzK2aO1WH9nFxo02pyA5HBlmq4cnwrg8FVFZZ48ku68fOUTkB5FYtl7B7HyTf6-PW_aCBw-T1wCUEmXzdi2sOjOd7foXSkeTdmn6wDE9wlYUm6WqXGRASMd07zO1whnZcUnjdAuOgPNRXBBpeQ4g7dze2NWrL0x7XBcDp0Qwq0wqCTK7iJgGRhCFg-QK_ynbyd5JG-IxC0RLNzvfYU4o8iACVey5GaqksmZTi-M-p-PqZ_M8fkSh5Eisd3Vo-RTUFbIW5vQ7ilv7j2LJqWgRRaAM-0YUUwW_fRBirHUlInD3F3bkzbnbTjiQ ,Age of the Cookie: 1296000
+2024-08-03 10:52:09 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 10:52:09 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 10:52:09 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 10:52:09 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 10:52:09 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:55:06 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 10:55:06 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 10:55:06 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 10:55:06 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 10:55:06 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:55:06 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 10:55:06 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NTg3MDYsImlhdCI6MTcyMjY2MjcwNiwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.UQS2t6tm1KI4XdlPkjKNZve4h21c_rOi1lv_OoPa2bdy1ux2wR9j6unjW3yiDwAzF9RzlavE07BrAnwXQ9jHlhxx7SnGMNJdEIZ8D_gd5RHS2VhT_vXMhfmRtpykdiQtje6SJw-wdx6PTP1lHhQrlZShg0zjICl0NyYdcgaHJE1BhFyLgjvIR-cnOsjKIwOMYXafP_HqzjM3WPbPI8s-niqX_El9CS_8forRG16K7r_kRo5n4jozdv2q7WJdOel0Ac4jrDyBW9G4NdkzDTNN-COs19uZJTzQK3vDQIK-IsUvc4JhEBbcSSw4H-qeee5CURZ0xdlIInyTMBdStvKdWw ,Age of the Cookie: 1296000
+2024-08-03 10:58:34 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 10:58:34 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 10:58:34 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 10:58:34 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 10:58:34 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:59:21 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 10:59:21 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 10:59:21 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 10:59:21 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 10:59:21 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 10:59:22 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 10:59:22 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NTg5NjIsImlhdCI6MTcyMjY2Mjk2Miwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.mEP2VDwiEI6A3aE3yeH5H7ZmfNWlNtw57j0Mf6WShbt69HF5K2kr7f1B2mXy_jF5QliDiW5nqPQvDvHtJih9EUGuAK3vuqDWjdo5K-qwYjjPWLBZu5Yn6nR76pSnvKy-CC0wI9cBBNkA_28ZnKJ5IqirHVno1hbTurT0ecFtAvyWUgsYcuirQxGrjDeFmlDMNE6U-XHvV8HKVFZUFfaes_OqPX0KbQEH2_TOQyFLqSvgeJCIQJgiYnmvL5gOtibeNSYuvRqJ73G7t-K7Hn8aH2syiA0KH1PePUOdjUdKpxLbumlUpkAvyJm8zln_uuIydB1LtWHFrwIUrPDKs9MA2g ,Age of the Cookie: 1296000
+2024-08-03 11:02:13 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 11:02:13 [http-nio-8080-exec-6] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 11:02:13 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 11:02:13 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 11:02:13 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:02:39 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 11:02:39 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 11:02:39 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 11:02:39 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 11:02:39 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:02:39 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 11:02:39 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NTkxNTksImlhdCI6MTcyMjY2MzE1OSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.HdVWNxBKD04u-PfRsU-TfvdRaGdlAeoo_HFrya--DR5jI37Y7tcMpRMp9dxHnpEViM0I4AiZfg-CutB1pcHl03Zt5y-e5v5_MzIeX1WUmth-skS-xAs9_E67c2-t8iG9g9Rb-BCDGE5rwy-Kew8VtkvuhnSMor0fpKOsYq8Uf2HPWq4MdtoycJlMLlCzOCRoGDwk5x3_7SNiAtkSqRUibkquO9hOq4z_AmXV4bTojzq87UgCKbAsS3tr4xclfOOhbMx5ys9B1H_Qb_6oOOIRVtuniFD8bzUP8xp-_-j4Zt0PIQs8KSOC_Zesm2RetY4AVo4IY5MwfpQXcEIJMf6yPg ,Age of the Cookie: 1296000
+2024-08-03 11:20:18 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 11:20:18 [http-nio-8080-exec-1] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 11:20:18 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 11:20:18 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 11:20:18 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:20:20 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 11:20:20 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 11:20:20 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 11:20:20 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 11:20:20 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:27:29 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 11:27:29 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 11:27:29 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 11:27:29 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 11:27:29 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:28:48 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 11:28:48 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 11:28:48 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 11:28:48 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 11:28:48 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:28:51 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 11:28:51 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 11:28:51 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 11:28:51 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 11:28:51 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:29:38 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 11:29:38 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 11:29:38 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 11:29:38 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 11:29:38 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:29:38 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 11:29:38 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NjA3NzgsImlhdCI6MTcyMjY2NDc3OCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.d-zC9-Y8IUM5EovLRpLeyMddIh1X2dlt1Xw2sicEo04qcHicB8lIQkdCRVVBjhQuGTW1AzuWiLz6qRfvEwTedwO8nraaRzwyiyKsD8X5FceG3xCLGD898tCxF-QCp1jyS7dNPzoI6AoPsazAhwAMJcq-brtxwCgrBpvNOct88_nJiZmtX3Lt_r-n56sh19UUzxvDRgVn67n5YDkJcwKeIDJ6j8CNhlLqxn1wm5RwOt8p0Wu_oTJkl1M2HFR_4Btjz4EKyoyQw_9YtUtylJ3k8KmBPViVfrVvGNFw-58okLLJwTOWM7YRMWjhdcBS12O7wzE8zlEe8cKBOHOUmxxP-Q ,Age of the Cookie: 1296000
+2024-08-03 11:56:15 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 11:56:15 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 11:56:15 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 11:56:15 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 11:56:15 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:57:26 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 11:57:26 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 11:57:26 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 11:57:26 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 11:57:26 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 11:57:26 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 11:57:26 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NjI0NDYsImlhdCI6MTcyMjY2NjQ0Niwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.YlqbmbWIud8dOThtP034q9umOfa6pWtQgNDTbK42IJLZGF7nBDq6w0BnwjZ9z6hceE1Obw1ZfEHipR3cYdYBGcybvUMk7A9aqCv7J9QoBuOZeWBL3Qvcn5nsidkK7cbdm6dp99VfqNUnPiFbrPmtWB9NE5N5XqT7wfdskey-TICefDsd7xsYlRBzO1IOrLSWGpHJK_JbvuIZh7cYX5GdYJ9K2O-xBW-u1TMdasZNArDAWhYjrADXiIzEh7IsuV5J-EFGjAwpOQCBsf960GY3Bx1F_PwMurWv0Nr0kMz2M0NQv-HyuI0okIb8UfwF5fdeDhnQchVW3fQyTMA3YCdstg ,Age of the Cookie: 1296000
+2024-08-03 11:59:24 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 11:59:24 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 11:59:24 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 11:59:24 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 11:59:24 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:01:07 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:01:07 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:01:07 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:01:07 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:01:07 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:02:45 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:02:45 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:02:45 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:02:45 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:02:45 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:05:53 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:05:53 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:05:53 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:05:53 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:05:53 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:07:17 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 12:07:17 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 12:07:17 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 12:07:17 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 12:07:17 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:07:17 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 12:07:17 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NjMwMzcsImlhdCI6MTcyMjY2NzAzNywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.XvTUDVYr0oHmbq3f9C52JGWFRrJdotDz-giCCZouraOBaecUyn5hzDcGVgMfxDYWT-ragNkI4bB0ICtSkG5dcIayX9HQrXpdqaG3jR9xuo64U_W3SQK8zmfNnVEvF8OegOwKVsmsE8xXxvnUrWHZP78RVrMDbKJHW_0ak4RKXC_d4S-Dk1NO0FvbazG19y7d4rLDYSB656XOrYVdpP3x4j4Vh6Deln9miGUKbMybX6GJVyh6sxQvw25S15BKPj8N7kzH5Pn4xpdxRHXsbEj878IW0LhPNKdvt5CM3xXA1FCFazuzKAz9hJVfw176ShIM7s8-IaKGESLI_DkC8gsF5A ,Age of the Cookie: 1296000
+2024-08-03 12:12:48 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:12:48 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:12:48 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:12:48 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:12:48 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:12:56 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:12:56 [http-nio-8080-exec-6] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:12:56 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:12:56 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:12:56 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:13:23 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:13:23 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:13:23 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:13:23 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:13:23 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:14:11 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 12:14:11 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 12:14:11 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 12:14:11 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 12:14:11 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:14:11 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 12:14:11 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NjM0NTEsImlhdCI6MTcyMjY2NzQ1MSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.CyrTrnfxJm4EEJ2ipJ-O2IS8RKvYHKz2bkK4Ec7rSUXBTYwm_wbUcbz0yUh4EkhldLwlfx7oqrxseKpq6G-tgAw60Tm1ef0Sayjx5gKxvTMqbJzcPe1rp0_18DLghDksRn_uCruw3jT7YXnrpcoJcnNj66h9wQXmBZi-bU1pV175cKK3sIaC0pGo-CvpsD1eXw0F-lYobi2C4tvhu1p5Z7qWTMiXUIHA0bp_32oUdRidp1ZSJWVsJc0g4xneS_0_rYxgh-HPTm1Hc136yUUlIzI0SlVhLMVKdoWDaGR_90Q-XcbokHfjoOG03jQn7--knOnNNl8jA8_I_f1hhMJqqg ,Age of the Cookie: 1296000
+2024-08-03 12:16:33 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:16:33 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:16:33 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:16:33 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:16:33 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:20:54 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:20:54 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:20:54 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:20:54 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:20:54 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:25:22 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:25:22 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:25:22 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:25:22 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:25:22 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:29:28 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:29:28 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:29:28 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:29:28 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:29:28 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:30:34 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:30:34 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:30:34 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:30:34 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:30:34 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:32:12 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 12:32:12 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 12:32:12 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 12:32:12 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 12:32:12 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 12:32:12 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 12:32:12 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NjQ1MzIsImlhdCI6MTcyMjY2ODUzMiwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.QTFQMqL9SgBUp63WpHax2bcqa6vL1v8YyLQeMmuSQX9E5kSsN9e_QYjNzV10AKDTs435yLPMN1Nn4VC6TP4lyOxCzze-UMZDAFWhZtPSSKwl70a9DtXDIQWF4irgDc6UFILuU4ZWkoMeQOdiiGIkOsSOhntgOHDcdXoSc9E2CwQVOwOlrpT2w0AiNseSwH1IfUVRVTWeXmk4s5_VnZ5pk0EgTE_kXKLGNfTItllYzwGiKmi3rc0l6V-rsAa7s6mZNHnCZURIW34lO-dzRxx1ieXBh5wKDXJQRfvvHaqr_URKH_7k163t0--TiP7JdvdCaM5uYXdyhpxbwzDMYtvoSw ,Age of the Cookie: 1296000
+2024-08-03 12:40:05 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 12:40:05 [http-nio-8080-exec-6] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 12:40:05 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 12:40:05 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 12:40:05 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:05:31 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:05:31 [http-nio-8080-exec-6] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:05:31 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:05:31 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:05:31 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:08:40 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 13:08:40 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 13:08:40 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 13:08:40 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 13:08:40 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:08:40 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 13:08:40 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NjY3MjAsImlhdCI6MTcyMjY3MDcyMCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.IOlIvLX_eabVz-0jRaKsUAQ9bXDmMjCLH4b1PcEMnVBOqMgTjzBEGrNQqdzXSsPeg36n8EnXfU9DAclIE7nUdbJ0ON4zFJW0Gm-mAd5AfFbxz88_0QLQK1_56b-JRFpZnq_EWZPT3_z5BrOJZyvWBaXJuvydS4EJ5RHwvLusjCod--BfBIyedZL5rVba2m7J7aJyvyVV42peI99_OvqpHcKptXQbbXaFZKiEMeVx6xR74OgWeGB9f_iuZepASnakx3OOlT-tQUSZnvWMPOjIYP0I-pZmAeWGwwaa9GsG4ix3Jj9uN2MQ-xjTlNgQkjUSxbHHlRgjJtLceWiIp6VP5g ,Age of the Cookie: 1296000
+2024-08-03 13:13:43 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:13:43 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:13:43 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:13:43 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:13:43 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:19:31 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:19:31 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:19:31 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:19:31 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:19:31 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:21:47 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:21:47 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:21:47 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:21:47 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:21:47 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:22:21 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:22:21 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:22:21 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:22:21 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:22:21 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:23:27 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:23:27 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:23:27 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:23:27 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:23:27 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:23:40 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:23:40 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:23:40 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:23:40 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:23:40 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:24:10 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:24:10 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:24:10 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:24:10 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:24:10 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:24:30 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:24:30 [http-nio-8080-exec-1] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:24:30 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:24:30 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:24:30 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:28:51 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:28:51 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:28:51 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:28:51 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:28:51 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:31:09 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:31:09 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:31:09 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:31:09 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:31:09 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:33:36 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:33:36 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:33:36 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:33:36 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:33:36 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 13:37:32 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 13:37:32 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 13:37:32 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 13:37:32 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 13:37:32 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:44:07 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:44:07 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:44:07 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:44:07 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:44:07 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:45:43 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:45:43 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:45:43 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:45:43 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:45:43 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:46:25 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:46:25 [http-nio-8080-exec-1] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:46:25 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:46:25 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:46:25 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:47:34 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:47:34 [http-nio-8080-exec-10] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:47:34 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:47:34 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:47:34 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:47:58 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:47:58 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:47:58 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:47:58 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:47:58 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:48:53 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:48:53 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:48:53 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:48:53 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:48:53 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:49:41 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:49:41 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:49:41 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:49:41 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:49:41 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:51:21 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:51:21 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:51:21 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:51:21 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:51:21 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:51:48 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:51:48 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:51:48 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:51:48 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:51:48 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:52:09 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:52:09 [http-nio-8080-exec-1] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:52:09 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:52:09 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:52:09 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:52:25 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:52:25 [http-nio-8080-exec-10] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:52:25 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:52:25 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:52:25 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:52:36 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:52:36 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:52:36 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:52:36 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:52:36 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:53:25 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:53:25 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:53:25 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:53:25 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:53:25 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:53:37 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 14:53:37 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 14:53:37 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 14:53:37 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 14:53:37 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:56:36 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 14:56:36 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 14:56:36 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 14:56:36 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 14:56:36 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 14:56:36 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 14:56:36 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NzMxOTYsImlhdCI6MTcyMjY3NzE5Niwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.imI8fnFr-9dgNt7EQrCGxZGBfTGinHANNqDg3HuhEzFXtko_CwbL-sF0YnzogsvK0RnD7kgM7Gxo_nDNew5fw1dNqw_mDDtv5PixdTWSCsQaGb4WBOTC0lWIjyKLvi1AEJSmG4rYsEwSqfa_USK-k70ce1P5xJXYEaaEcIXIMghUva4p4Ggs_YPjaWXnR12eUXJcgtaJh75aqOkZuvN9zlSgB7IBzfxP8j-rOVEU_ZSwOhfkLk4it0ZAUIrljc-hId-dNJzENnk7R3nyzQmxjy4wH61OAQRUBXjTHJS956jEzVfkvM5-2Qiu_Wi89lBSxMPw0WB0-gPFVoF_lRfksA ,Age of the Cookie: 1296000
+2024-08-03 15:11:32 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:11:32 [http-nio-8080-exec-10] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:11:32 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:11:32 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:11:32 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:16:17 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 15:16:17 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 15:16:17 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 15:16:17 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 15:16:17 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:16:17 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 15:16:17 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NzQzNzcsImlhdCI6MTcyMjY3ODM3Nywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Gib0TcuRcUydQh1kGT3bbYIRgYq9fRjJeuYzBdDvn68tRMNfOksgRlpuUaGaCGtmsppRfp_w06i4CHh4OPRrYqYpk_5RTNAzSWyO0Ze_kh_h5gxXDW6TpBcqtbC48kP5m1f0Na-hgoTIAX4BaZl5Q_je0ynxQm7JcB_AZwqFcIoFnVVoJtm15NsQ0SV1n0AkC5-m9LeN-E25xOxJNcnov6e33jlkQ4LtEWWDMDtk9mF8bMZfdOCQPBBanKpbAaacKdeHnq0ZX-qjTiDZzwdKbyxhO_gLPRAE9hOMrOwX186RYvQxzrukwkJHjjPGHQTC4N7WMMKtTPuLiDnPZnF4sQ ,Age of the Cookie: 1296000
+2024-08-03 15:17:46 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:17:46 [http-nio-8080-exec-6] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:17:46 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:17:46 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:17:46 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:18:00 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:18:00 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:18:00 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:18:00 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:18:00 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:28:45 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:28:45 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:28:45 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:28:45 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:28:45 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:34:16 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:34:16 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:34:16 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:34:16 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:34:16 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:41:49 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:41:49 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:41:49 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:41:49 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:41:49 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:42:20 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:42:20 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:42:20 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:42:20 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:42:20 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:43:23 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 15:43:23 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 15:43:23 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 15:43:23 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 15:43:23 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:43:24 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 15:43:24 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NzYwMDQsImlhdCI6MTcyMjY4MDAwNCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.ijvgTpuYH_zkLGhyC1DWyLWlaGc-Up2zcsA0ZEhAVloD7ZlOzSp8nOMK7SibOL3aQOiWIHIuQ44Bc3FT-3M6a90hWfaTsYl74gktmFRhcXrAn0Q6U9XeWW0OAReTqyUGUJDamDDxYCw8Ov6WZZLOMr6-12GXROq1BgVnb9d9UoILiLVEa8itxdqOkB4x9kM44frpDSQluyqDc6EzshfMZaOm5FrwvZtU5TenifywbWnDSl7luI8K7rEi4XSqK25pk7ZWKNP1t4QPh-MUTvCiejxW4mjgP5x5cJNPgBitJnOwiwKZlxprpe00gygbzdviJG1t7Z5ZPnWXsYqWPJuB9g ,Age of the Cookie: 1296000
+2024-08-03 15:44:28 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:44:28 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:44:28 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:44:28 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:44:28 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:51:29 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:51:29 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:51:29 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:51:29 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:51:29 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:52:24 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:52:24 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:52:24 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:52:24 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:52:24 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:53:24 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:53:24 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:53:24 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:53:24 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:53:24 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 15:57:10 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 15:57:10 [http-nio-8080-exec-10] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 15:57:10 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 15:57:10 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 15:57:10 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:02:38 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 16:02:39 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 16:02:39 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 16:02:39 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 16:02:39 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:02:39 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 16:02:39 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5NzcxNTksImlhdCI6MTcyMjY4MTE1OSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Y4JuQdv6fVtH9b7-fymoPKMfGTxiEFI-3UqKtNc9az79-fRsDl1t2TGHQYZQLcE5_I7jjbr4DvcObFjVvpP0LgNVwaQulrk1m5_aUGYzZ3iJoN6ncrf_GFrCcYbFeQQ9TAwgy5mF5uHVc1cD9Y0eJqbs8Z4Mluln4_SON0fPrKFH1m9ZGJqV8kx__prmVvPmXcSNk02Z7pFZlk2-nA1Yd_v4Qn4mQdWPI9m-AphXKxfE01O8DcOUNao05XzINlMFJ1QsHm9c0NaqL6SC_S85U9pix5r0dTxXnseNIsKwJB7-yrh-9ZHT7fHnGEFuFjXQXukDlnFMEeHT5coHAH7Pfg ,Age of the Cookie: 1296000
+2024-08-03 16:07:06 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:07:06 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:07:06 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:07:06 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:07:06 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:09:13 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:09:13 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:09:13 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:09:13 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:09:13 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:14:02 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:14:02 [http-nio-8080-exec-6] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:14:02 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:14:02 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:14:02 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:19:40 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:19:40 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:19:40 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:19:40 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:19:40 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:28:40 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 16:28:40 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 16:28:40 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 16:28:40 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 16:28:40 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:28:40 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 16:28:40 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5Nzg3MjAsImlhdCI6MTcyMjY4MjcyMCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.IxtypjGuL2UtdREpP1VkiIV3SZ8_yl12PSQJk6G0xQdfeLCWvwiV8ff_eojaHLJaSIrnoPPX0PLy5PhrNUbkEvCWO0UzgljNYUddzTEhoCt8-lae4AQtivRj6nr5nLahuGk3oHBPDx4XsvcwbulZyaiNOELYQYzIEF5H86nvEGzH6v09WryRdB20VO14P1izl_Y9gHYnojLtyHJClAY7Hb9ufBpWEa3-VDVySW3kJ9x84dflZnfsUMRbwy-TWC4DmHbJ-8OjLnYhn5QaqPnY7n1phm1IOtbtF4q5_ZdPMDJqbkPtuazyDZlmeKarBnqK0yA7GrcAt4hPEspzeFt00A ,Age of the Cookie: 1296000
+2024-08-03 16:33:45 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:33:45 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:33:45 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:33:45 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:33:45 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:34:27 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:34:27 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:34:27 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:34:27 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:34:27 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:35:06 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:35:06 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:35:06 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:35:06 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:35:06 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:35:31 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:35:31 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:35:31 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:35:31 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:35:31 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:45:20 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:45:20 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:45:20 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:45:20 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:45:20 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:46:06 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 16:46:06 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 16:46:06 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 16:46:06 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 16:46:06 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:46:07 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 16:46:07 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5Nzk3NjcsImlhdCI6MTcyMjY4Mzc2Nywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.k3EQxNQUWeWfHz2OKpNwBKSTZIcClT69F1PxyWJ68lWmlec_26nlFRaKbXLTtnC6rEOHLsmBegfqRM1RxhlV8erCe5A0j_8F7ZN5Uw0sBr91Ny6Ez80m2GevEttT6JUjhnHBSvV2o2HkEsmn0Blh1NX2whyVhDeiixekeWy-Q2X4HEDykS7GCkZ07KOFAbI1EgzBUk89AziW89nW2Dp_gRLYMS6-cWItMzwtEPp-PgswbdnttYRp02HqxXiKuSJ4fW8NVdEQmWI0eBX-pW3BMZGNEm4_DxbX5pU2qQ_qnHtw9ia4Pj2lR2P6P1j-vcx8Vw570QSB7pAT75X6yvg7Jw ,Age of the Cookie: 1296000
+2024-08-03 16:48:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:48:43 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:48:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:48:43 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:48:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:50:37 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:50:37 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:50:37 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:50:37 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:50:37 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:52:27 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:52:27 [http-nio-8080-exec-10] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:52:27 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:52:27 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:52:27 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:52:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:52:43 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:52:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:52:43 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:52:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:52:50 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:52:50 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:52:50 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:52:50 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:52:50 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:53:06 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:53:06 [http-nio-8080-exec-10] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:53:06 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:53:06 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:53:06 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:53:19 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 16:53:19 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 16:53:19 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 16:53:19 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 16:53:19 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 16:55:34 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-08-03 16:55:34 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Anvar, empEmailId=mid123@gmail.com, empRole=UI/UX-designer, salary=56000, mobile=8542152451, isNew=false)
+2024-08-03 16:55:34 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} mid123@gmail.com
+2024-08-03 16:57:25 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-08-03 16:57:25 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Swetha, empEmailId=swetha1402@gmail.com, empRole=UI/UX-designer, salary=45000, mobile=9500979057, isNew=false)
+2024-08-03 16:57:25 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} swetha1402@gmail.com
+2024-08-03 16:57:25 [http-nio-8080-exec-6] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2024-08-03 16:57:25 [http-nio-8080-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_7 ON PUBLIC.EMP_INFO(EMAIL_ID NULLS FIRST) VALUES ( /* 1 */ 'swetha1402@gmail.com' )"; SQL statement:
+insert into emp_info (email_id,emp_name,roles,mobile_number,salary,id) values (?,?,?,?,?,default) [23505-224]
+2024-08-03 16:58:35 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-08-03 16:58:35 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Swetha, empEmailId=swetha14@gmial.com, empRole=UI/UX-designer, salary=65000, mobile=9500979057, isNew=false)
+2024-08-03 16:58:35 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} swetha14@gmial.com
+2024-08-03 18:35:37 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 18:35:37 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 18:35:37 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 18:35:37 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 18:35:37 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 18:35:37 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 18:35:37 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5ODYzMzcsImlhdCI6MTcyMjY5MDMzNywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.ZNVJkBbPcC1dkdzRTTfMB7LFwpBXNholyImqVhz2i99RfYw1TMH3zSZaVrsJjlKho916GWexmolqd4AtemmM0vs7VA5-j_ZDAyx43z9mswCw1qV7hfcPWfz6Rcz8e86JOVvi4FHEwV-q6i1-Kfbe9Mq3DATdONqkRepqTaxdmsxNDajie9Q8Oo6UHiSyAijhu5wVViStxnE9CBC85PnpM9QdmVeAcOjj-LJ3i7yMcwJdSA5LXzMGePgP28e0sXtxzykrt8v1BXitXUu2x5IIpmpPp9oYhyYsFcZRzRRQeNMlR8R7sAbzeArbSrnulcUGUtt4YSgjq4DEqMrPeGNsEg ,Age of the Cookie: 1296000
+2024-08-03 18:37:05 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-08-03 18:37:05 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Deepak, empEmailId=srini142@gmail.com, empRole=UI/UX-designer, salary=65000, mobile=9500979057, isNew=false)
+2024-08-03 18:37:05 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} srini142@gmail.com
+2024-08-03 18:40:22 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 18:40:22 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 18:40:22 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 18:40:22 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 18:40:22 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 18:43:31 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-08-03 18:43:31 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-08-03 18:43:31 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-08-03 18:43:31 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]
+2024-08-03 18:43:31 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 18:51:19 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-08-03 18:51:19 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-08-03 18:51:19 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-08-03 18:51:19 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$TEuFSe4HDoc8Yyt0sVDCneGyHoPghjTPkXWyKFf/LMuLb4n1TiT9e,RoleROLE_ADMIN'}]'
+2024-08-03 18:51:19 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-08-03 18:51:20 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-08-03 18:51:20 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM5ODcyODAsImlhdCI6MTcyMjY5MTI4MCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.MYHC797vj3SZ5YGE9lCBfpXOY0RPm7DWsFmgfy1KI3hQT9rO2qUybkSZneDIRI9by3uvo-0NIInR-FydKAzDQSm9ylMo6hJ7LlWLD7ngTnv1HmiriiXSWVRdlB9lvbKEDm28DUCiuIOZmP1VNeEsoHSEe98n0b7rJZuPi6F8GNjNktmSsr3YNWuY4jtY9-o5-DMLNzHP8EDuFpIpOmCbL8w1tQKqfOpUBwH3angu3xnrozTpxH9jf0_93Cgodea2pdi9QTSQVM9g7SH3TskwULSTQ-m_1eXFEmdQBelTgCPls_dj27ZtaRegO9yLQajScDwDtsVhy2wPFxQhrpw0Zg ,Age of the Cookie: 1296000
+2024-08-03 18:53:22 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-08-03 18:53:22 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Srinivasan, empEmailId=srini144@gmaill.com, empRole=Application-developer, salary=45000, mobile=9843085552, isNew=false)
+2024-08-03 18:53:22 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} srini144@gmaill.com
+2024-08-03 18:55:09 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-08-03 18:55:09 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Praga, empEmailId=praga12@gmail.com, empRole=Web-developer, salary=45000, mobile=9265161616, isNew=false)
+2024-08-03 18:55:09 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} praga12@gmail.com

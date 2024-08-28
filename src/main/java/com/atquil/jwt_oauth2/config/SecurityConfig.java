@@ -32,7 +32,7 @@ import static org.springframework.security.config.Customizer.*;
 
 @Configuration
 @EnableWebSecurity
-@EnableMethodSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 @RequiredArgsConstructor
 @Slf4j
 
@@ -132,13 +132,19 @@ public class SecurityConfig  extends SecurityConfigurerAdapter<DefaultSecurityFi
 
     @Order(5)
     @Bean
-    public SecurityFilterChain h2ConsoleSecurityFilterChainConfig(HttpSecurity httpSecurity) throws Exception{
+    public SecurityFilterChain userRegistrationFilterChain(HttpSecurity httpSecurity) throws Exception{
         return httpSecurity
-                .securityMatcher(new AntPathRequestMatcher(("/h2-console/**")))
-                .authorizeHttpRequests(auth->auth.anyRequest().permitAll())
-                .csrf(csrf -> csrf.ignoringRequestMatchers(AntPathRequestMatcher.antMatcher("/h2-console/**")))
-                // to display the h2Console in Iframe
-                .headers(headers -> headers.frameOptions(withDefaults()).disable())
+                .securityMatcher(new AntPathRequestMatcher("/registerUser/**"))
+                .csrf(AbstractHttpConfigurer::disable)
+                .authorizeHttpRequests(auth -> auth.requestMatchers("/registerUser/**").permitAll().anyRequest().authenticated())
+                .userDetailsService(userInfoManagerConfig)
+                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .exceptionHandling(ex -> {
+                    ex.authenticationEntryPoint((request, response, authException) ->
+                            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, authException.getMessage()));
+                })
+
+                .httpBasic(withDefaults())
                 .build();
     }
 

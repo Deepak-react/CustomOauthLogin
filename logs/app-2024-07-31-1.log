@@ -1,0 +1,511 @@
+2024-07-31 10:18:49 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-31 10:18:49 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 27996 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-31 10:18:49 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 10:18:51 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31 10:18:51 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 4 JPA repository interfaces.
+2024-07-31 10:18:52 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-31 10:18:52 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2241 ms
+2024-07-31 10:18:52 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-31 10:18:52 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31 10:18:52 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31 10:18:52 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-31 10:18:53 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31 10:18:54 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31 10:18:54 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31 10:18:55 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31 10:18:56 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31 10:18:56 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-31 10:18:56 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-31 10:18:56 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.439 seconds (process running for 8.334)
+2024-07-31 10:19:33 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 10:19:33 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2024-07-31 10:19:34 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 10:19:34 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 10:19:34 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 10:19:34 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$kOzOsP0tMV3JuOWUA1DKquVCUwjsB.UQSmA/2qBGPdvb/xZ55rMwG,RoleROLE_ADMIN'}]'
+2024-07-31 10:19:34 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 10:19:34 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 10:19:34 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM2OTczNzQsImlhdCI6MTcyMjQwMTM3NCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.GQqy_l1pM3z5_AKy_EU0qtxEgKUBCf2-Nsfu3eavqRyHzjxP3qCIue7Q24UFYo2HrVPEup_pRi4ISqr66tjoEl1l6ERoall0O_aBAAjj0VgnFLsB5NS-ZQZRz5JU5yFz149Pa3jt0eu5ooODA1MTniKAPw1hhcooDyiHVu04k3dG8dXd32tdCIi17n2VgqtyUtOMtcQhAZCxTP0tDamfe3sCepSr3ya7NmWUzYHWX43bzeu20RLZY6vh1jNp-V_Ibn1T8uXqsUe4Zv35qql027P3bJaqtnmry9GeRyvg0_UiVvNGp2dAnlaSadRz74eVX8DgS7O5D3HDOQKc27z3rg ,Age of the Cookie: 1296000
+2024-07-31 10:35:03 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-31 10:35:03 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 8832 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-31 10:35:03 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 10:35:04 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31 10:35:04 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
+2024-07-31 10:35:05 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-31 10:35:05 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2089 ms
+2024-07-31 10:35:06 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-31 10:35:06 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31 10:35:06 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31 10:35:06 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-31 10:35:07 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31 10:35:08 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31 10:35:08 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31 10:35:09 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31 10:35:09 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31 10:35:09 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-31 10:35:10 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-31 10:35:10 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.349 seconds (process running for 8.508)
+2024-07-31 10:35:41 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 10:35:41 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 231 ms
+2024-07-31 10:35:43 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 10:35:43 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 10:35:43 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 10:35:43 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$3Hg77lcpOQPDfPd5IPAxl.FN57BIa35kkiGRh71tHVTqV.sPZXfqm,RoleROLE_ADMIN'}]'
+2024-07-31 10:35:43 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 10:35:43 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 10:35:43 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM2OTgzNDMsImlhdCI6MTcyMjQwMjM0Mywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.ThL_deH55mU8LmoK54k4PHQ-LhwIQ8nXfpJt8vwfsQpHAWvZEH9V2Q13dlJt71B5m6u2eiusHHb4w0y6VfQDdC2_FUUNpTal_nqBW7KalyN2eyiJZ9p_appsvjUDhhBOZtTkgfdvbktMsEF9jY3x1907dqebOj8uBAExSbafOCvybWAuPYHau3xAKSh2FHN9nFU9Z4cz79oDKkRTAbLERM5zZ4o5qOQWTTz-ewo5Cm4Y-aJVln0hrRJs12Abe7CUnorb_zF1UqBH27eS2w8owaiSCJoLL8w54RA6pWTEBqM6WIV_nlhxFirC1aOXgxN-lDr_Hj0eDrbCV5QOxi1LFA ,Age of the Cookie: 1296000
+2024-07-31 10:45:39 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-31 10:45:39 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 29472 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-31 10:45:39 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 10:45:40 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31 10:45:40 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2024-07-31 10:45:41 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-31 10:45:41 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1994 ms
+2024-07-31 10:45:41 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-31 10:45:41 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31 10:45:41 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31 10:45:41 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-31 10:45:42 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31 10:45:44 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31 10:45:44 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31 10:45:44 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31 10:45:45 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31 10:45:45 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-31 10:45:45 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-31 10:45:45 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.195 seconds (process running for 8.384)
+2024-07-31 10:46:44 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 10:46:44 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-31 10:46:45 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 10:46:45 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 10:46:45 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 10:46:45 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$bSQYQQsF.lqrC/6sWLS/De0TqJSzKNVpsXolGZLRLFSkiwsrnZRVS,RoleROLE_ADMIN'}]'
+2024-07-31 10:46:45 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 10:46:45 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 10:46:45 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM2OTkwMDUsImlhdCI6MTcyMjQwMzAwNSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Af5AoBJeMg09fwIariahpIxyO2_FYjF4rDPqnU6eETI4urccJUTV2lc1QeMv8jlIXkRzHiXG9Z7JQ-9PNaL8C4iD8gZLIQQX0ArEMgwo8381h0ReitBHV7Irv5d9xVjcQ5AIYu-KIFWXoR_8Nwdoa-EVh8kQKBQJ_bHGEAAHw4H1OYNzZWAoDX4fyd-M51XSNOxTC18VUZrPDiYfyWsPECobg_4_22WE4pjr_uygBigJ69Em4GfEQk7xYtwI9foMV-B2rF5j0Lly8DMudqJN-LlUJzPuGVM1TuqeloX-E9rEq1ur1N2UfpWfTyh0oIpf7gwZq-cqeoH5JH6CmSbXcA ,Age of the Cookie: 1296000
+2024-07-31 11:23:43 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 11:23:43 [http-nio-8080-exec-1] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 11:23:43 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 11:23:43 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$bSQYQQsF.lqrC/6sWLS/De0TqJSzKNVpsXolGZLRLFSkiwsrnZRVS,RoleROLE_ADMIN'}]
+2024-07-31 11:23:43 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 11:25:44 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-31 11:25:44 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 28076 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-31 11:25:44 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 11:25:45 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31 11:25:45 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+2024-07-31 11:25:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-31 11:25:46 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2473 ms
+2024-07-31 11:25:47 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-31 11:25:47 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31 11:25:47 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31 11:25:47 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-31 11:25:48 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31 11:25:49 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31 11:25:49 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31 11:25:50 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31 11:25:51 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31 11:25:51 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-31 11:25:52 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-31 11:25:52 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 8.64 seconds (process running for 9.929)
+2024-07-31 11:26:01 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 11:26:01 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-31 11:26:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 11:26:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 11:26:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 11:26:01 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$KkijvEBc57SsRmgOhlRnJ.zw3ML1Yea9F.LOGzXmnWjVjR47cMe/W,RoleROLE_ADMIN'}]'
+2024-07-31 11:26:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 11:26:01 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 11:26:01 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDEzNjEsImlhdCI6MTcyMjQwNTM2MSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.i4mHLRjkW9C6En-eKE63FHUZ_B_jfOCdC-tBkBDJzmG0R-WzoqT14QU5tnEjv8A4DNs1TyUwOXMpVjLBYBJRdnmStybp0pO4xizla0gHBpE0fYEDoPNQmzEty9H6Z-xrrqxgLViSCMKCg9NUxOjowVgT-3zhn6lTNOc_t7bwLIzzDGBOQR3X8-V92ldrrTNUf_cK8cyQty9Yw0YzumagBRH3TbPXtzasb8YHM0Staa8NE2Z4rSEtI1UwmmWV3aXE3B40tJtqpWs0Kk2IDQ_8xJ5WI_4uYBWNIzDpF4moXFbOPR370hyzCJXrKludIcswruaYGlmV7OSnPSE_zu6JSA ,Age of the Cookie: 1296000
+2024-07-31 11:31:14 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 11:31:14 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 11:31:14 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 11:31:14 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$KkijvEBc57SsRmgOhlRnJ.zw3ML1Yea9F.LOGzXmnWjVjR47cMe/W,RoleROLE_ADMIN'}]'
+2024-07-31 11:31:14 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 11:31:14 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 11:31:14 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDE2NzQsImlhdCI6MTcyMjQwNTY3NCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.FfFx22gOUB5GMXE5QuzalEtvvWrl6LaJAp4UVe06Af3tEKsjJHT5N3383nwyFtHpfp4kG8WCz7QXS0DXxMkn9vxc3a8tZ9xX8dsSK9D84r4UTSe-pyCtVpMpfSpJIr3tpwO2JpB0eHvg5pJc-wqAnS1ULeFxnRDV9hkqcNMtTeWemJeKtbA0dDLrmVivaobrW0O_Mo0TlQv8kVLZw9J-bjhOsyvnxvxz0rL6-Q6Nk-cNLw5yuJ4UTN77W4zf9hPc90wRxihI2tdlYB18pyrgdBcege7QxcmE0XSYD6fmSwXaOVB92Lg5vxchLThqy8yrJ2flWNCBXuhA8bdBbT5Nnw ,Age of the Cookie: 1296000
+2024-07-31 11:36:12 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-07-31 11:36:12 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=DeepakSwetha, empEmailId=swethadeepak1418@gmail.com, empRole=Mobile-Application developer, salary=35222, mobile=8072564637, isNew=false)
+2024-07-31 11:36:12 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} swethadeepak1418@gmail.com
+2024-07-31 11:36:33 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-07-31 11:36:33 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Deepakm, empEmailId=swethasakthi1418@gmail.com, empRole=Mobile-Application developer, salary=35222, mobile=8072564637, isNew=false)
+2024-07-31 11:36:33 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} swethasakthi1418@gmail.com
+2024-07-31 11:39:48 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-31 11:39:48 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 32324 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-31 11:39:48 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 11:39:49 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31 11:39:49 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 4 JPA repository interfaces.
+2024-07-31 11:39:50 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-31 11:39:50 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2021 ms
+2024-07-31 11:39:50 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-31 11:39:51 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31 11:39:51 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31 11:39:51 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-31 11:39:51 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31 11:39:53 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31 11:39:53 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31 11:39:53 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31 11:39:54 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31 11:39:54 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-31 11:39:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-31 11:39:54 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 6.817 seconds (process running for 7.814)
+2024-07-31 11:40:16 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 11:40:16 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-07-31 11:40:17 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 11:40:17 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDIyMTcsImlhdCI6MTcyMjQwNjIxNywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Pxf4-di55LFrnBKzXhwf2zqUGIxHYnNvY9WMjZlQwg6E6FtWdwr25z0ne8rJjZBq1FGWfJ1hkIXltT4y0ggDyYKWCS2Sjq2ZIl6Y2XVuH-0ktZFsNaiRJ1MYjGomMzLTDCbRK1G7SEhhgEckJEKb8sOVif-wNjUBRa4cYqyS0Vr3yiXilsHmhJq7qzE9aYBDzYAKuzjujE6dNSih73IOGvWuAKa1ufK2bBRql1HJqNrxlffXuN-Z2PGzKjisYxDx7tWQr535xPWVt5EdfLTpRqKHBtmvkmkuut7RlG-s9EG_uAs8k4FAFO5o0c5Z8Yvi8xvAgMNttcupyMyS9xdRfQ ,Age of the Cookie: 1296000
+2024-07-31 11:41:01 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-07-31 11:41:01 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Deepakm, empEmailId=swethasakthi1418@gmail.com, empRole=Mobile-Application developer, salary=35222, mobile=8072564637, isNew=false)
+2024-07-31 11:41:01 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} swethasakthi1418@gmail.com
+2024-07-31 11:41:20 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-07-31 11:41:20 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=swetha, empEmailId=swethadeepak1418@gmail.com, empRole=Mobile-Application developer, salary=35222, mobile=8072564637, isNew=false)
+2024-07-31 11:41:20 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} swethadeepak1418@gmail.com
+2024-07-31 11:46:26 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 11:46:26 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDI1ODYsImlhdCI6MTcyMjQwNjU4Niwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.e4QdRJny6ab5b7pxXVqeNtq-sHrUfRYqqUbEGTTlkHgTgNLuYTQVdQkusKd-YsFpPqB7sDLPsptFqIOQ0hdh19uA3mVF3IhArhDuZJhQSvKpUbUrhedVCvzSYPqKNMgRillBcuUpbNXbYWmnuLelMGYxePYCSsy56BwL8I2jhSSwyUIx_ycWkd1-UfIXki8c400XcB59hr-t3ifefdxHD-4fr2tCt3stALbX5A7tNa5RAwE9r_gMP0hMWUCEudANDjG4QPKqNIRku7ikU88JYnyTrNKR2GY_UCeihuEkyJbDVfB2byI_N2-_ua4XFQyziY6Uc6VT2QV0tTs-Evzj-A ,Age of the Cookie: 1296000
+2024-07-31 11:48:11 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 11:48:11 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDI2OTEsImlhdCI6MTcyMjQwNjY5MSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.d5fNqknnvdEBI8bhS5JNSzCpzQzmBhJ_-cJnmOAWW2E0sJuNSVC9zwwjmDz5iw1bruXiI57f4moAZMmZqlO3tVrQMLi5F64F01eHecNQs6oFGvR_ubkcgUeceTHSbnpXzqAHDiUS9duCgW-GwTaVEAfw0YxbhTLha-OVAMGILJi9h8zFpn7rWH0b-hq-kYOqS0LheStLJR2v5j0-G0AlhGP2Cc5HmBkH9fxewy38Yh3CqC3l0-6h_spTDRHY4hnvQveUY9vrF9weyHI1RD5EusF9H82iVCSIcjZMjC-msME9uGqfHC_L7qx8dXClq55wrQdRR9tX8sEO-GyF3kwOLw ,Age of the Cookie: 1296000
+2024-07-31 11:52:49 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 11:52:49 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDI5NjksImlhdCI6MTcyMjQwNjk2OSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Pzzpynp3iQfEIWiKYK_k66g6yABtTrSH33rqmB9dzOruXdSad3meDhVaNmyzTRQkODv6m9uvX6ZFedOhZOudjYkSWCHkrKM3rlSKEOn0rDRE23cikLC9T-Depr6DI6Mj_IwFtgudIoc6i4yxFc-fmp-Uq2n8ELsrTzxwg2H5hrO3nR19IPTtjD01ENt8h15nxfh9_IMHYlfJAwvBGcTNfABrxWWjdvXo7O0bK8K8M0LTJdEZewkPpbhFepLS5vNH9_VMgbO-APk2BEhjN0QQc1rdS0wVvaGUsji2X1zjnz58OdGqrf1nLiJuB4t9VAphXA-D5R9XMKsgWGTlEfT6lw ,Age of the Cookie: 1296000
+2024-07-31 11:54:14 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 11:54:14 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDMwNTQsImlhdCI6MTcyMjQwNzA1NCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.iwUOQbTBkIAFc7IiXgFMzHIBdRQz75RaggzLzQEGkUG2-GWOgXpYPkqbOcPuKrBiI-hxdhr-ceMLN6zUVKp8IdhNy21AeTjsETCdGJeNg6IgNDGhDP7DxepWyEuU032MtTk5wCjOpkSu67mcau0TO-LuHJD0v--A1T07Q-cgIG84KQvTjM56NjWsx22aNntiTb7t9i2LovvJoWhAtf_Y4jHln_30QlYmcbOWy-VFGwY8S_9kCEtLOAo1Qi3KS_kOq6HCviXtM3Rsq9s5sY2VHXWHM2nh9L9CHdf1BQemBg6weOYYKK5YGyvnI4Lw-ROJYFXXwVaGX3OIkKTaEKTd3Q ,Age of the Cookie: 1296000
+2024-07-31 12:01:43 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 12:01:43 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDM1MDMsImlhdCI6MTcyMjQwNzUwMywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.ASJQSempylq8hjNadT0A6gIqAOv0TF5D01uf1Cg8bomVkeuNQup_JdeMhz8sJx6as03dyeKylc1sAT29OG3P-nJXozcM-BiLv3HrczyuTofzr5VeKyXBNClTzLMHIVT5h9SezMFmm0q8l-jTofU0AXgvsqN5bBCOxgQonXbrw1YltRy4EW81rQ0ddBTYIZpqEU3fQXJ2xBof2hO-frBy0PhDs7PR7Slc-4RD-zFcoLG5qNFmA5P1jmaNuplZX86q6Wx9eT27GSwKey57sOfFzTeshM9m0_qm9JjtyJOC976NVoGlmpgYV8TpJIH7-1SCzg-ioBzAwAQyTzGkrSkY4w ,Age of the Cookie: 1296000
+2024-07-31 12:06:22 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 12:06:22 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDM3ODIsImlhdCI6MTcyMjQwNzc4Miwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.O-O6wsnVWQ4Kbz8OBrusH4jx_sc8CZ_sLG6osCqZL4tKWcDVXUqGxxvswM_DKmiwRs3m592rPAlK41NiQUDID7pzJaaCITZ7KU3s1Xcu17-pt41Nwko-ySCOM4Dta7zG2B3Yoy8KHnlHbIv9yE8AjUXyrfEsIKFRLemnTKQerJNgCKhvy7DcqlrFZ7NvG_VB22Jklpm36IuhuJdCJVYc5RMeNshKQCryTkaySFFpRPqpA4GcJXh3lxYuxD3AMlbrXQNB_EIVz-OKpFwMCTKYVSwk_sMprMTI8E--ahVkIWpJZZh_L564jFpRuqIp6qz5dZyyU44g5tEAgS5suWwEOQ ,Age of the Cookie: 1296000
+2024-07-31 12:07:35 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 12:07:35 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDM4NTUsImlhdCI6MTcyMjQwNzg1NSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.HVb-GN_cQUzSNWjJiX95rT9vb7x4735ZOXOK-P6_EbnYZAy3jrxpw5PvPtuqhAdQlge7OabetAWYEWvEkJa5gmobKtuMts228KOWc9jMPSL0vHgy2oKZKUWj2hd0I_wStQalzENjYR6RrAfgGZJW9za4WUzBKmiN-8e7GnULyKU-2cOdWNwh5t6R3pRZ4PDA1rkjy-U65l4NSuEYD4HBWOHNQ7OFh6rPVU6QYZ86yqy0asW7-XzvoOaQSZv7QxU8p6xs6QP2eCEHr60opY_uzUNRySV8Tj_fxwKzPBIAmXzOn1nGI4GqX33T7HkGXNeif-D7igbAIpJAcwbtUnN_GA ,Age of the Cookie: 1296000
+2024-07-31 12:08:39 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 12:08:39 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDM5MTksImlhdCI6MTcyMjQwNzkxOSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.axqw5ztiDOoSrmvbmtVyxAzC3fAUvChX_G_S4OXQkszQgdybqtMvLSqqS6E3UxDcfI3DGYH_4DA6JzqNLjC9TUQJdxLTnLKkbf55XRxTNW9iBBKO7-sP-LgbFgur7h5KVQJl2gBbNCAml4VK91kLVVYhJiJ7b5wPM7OWO53HZcCvTq_T5hjlBsuNhBlbghZVwOb80gZ9n1_xHzjcQ1Xd2Ic078wKQbAIeBS_SChewju2aknvtckuoc-AuMNduYO3ywb0j9Juzp04DqXfXtpSx23asYnFsRgcMdVhZHh7sEJKGrgAWTHFFlN1urVmNk--e9_ZBK3hAIFjyHGsvVEECA ,Age of the Cookie: 1296000
+2024-07-31 12:30:34 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 12:30:34 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDUyMzQsImlhdCI6MTcyMjQwOTIzNCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.PlYVqlRjN8oHE4Lk8aWZ1Dpa2UITl0cn4P5OLcYAIPbasbCGIykyNYCzNT0IFaKe7Ao_2rLY8ZwGNDa8jzxFhHQoZZIVZRhXSk7WAmimPZji-l807FW0FOqjZaTOu-uPXeXVzvnt4sJ4IjpYHTmgGfi5eCQ67Ke--uQRBSidDlZQ_3gmLMQybVDCwKUUJ2KGxcP6kbJ3qeAhJ4PiJEVvAlErTCvHgYgEA2dKUscont--TAaK1T_G6Dbf8v9IloxcxYFNuHn8YoPwy0hL3wJAYqjrkIEfVlsQcMZhtV3sJQwT-Ezjbk0xShQy9TJ01SMsrjLPJEQMzmOMh40vfoXrYg ,Age of the Cookie: 1296000
+2024-07-31 12:36:46 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 12:36:46 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDU2MDYsImlhdCI6MTcyMjQwOTYwNiwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.BqHBEsd6YFbbQLHcwAEW9pcZtZT_P6oyder_MMGBilSovzZ9KzH10eb3gf4KOjtQtRK18erN2V-5CHVPQxRCh6W4HzDdf98-KVM1eJXEXf_bWusXF7vkjN1oDOjcbovU57EQTew9KZRYoxNVqyM8f6_m9JkoThB7iL68vHxeChwbst9uAcTQDVvsFi7ZCSSXNCvcRLqGuvzIJwJCom5zTUYfKxy4728HoApL1De17imnD7HdO-pZAzZG_bG5QWUS8_XfZVi-NPyTUFDnogn9zAWtgnlfL1V-5gFGsReze70o4eslxul9xVnsKJ7e7JPXVgNOeITk_GDhPgiAofvDBg ,Age of the Cookie: 1296000
+2024-07-31 12:49:28 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 12:49:28 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDYzNjgsImlhdCI6MTcyMjQxMDM2OCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.TC1kuNPEmherr6JeTRP5ax00teT0qKEtosvhCB_IZfyM81iMPasqGkH3xgZSGRpdNy_PkPVboM8_kYhxwsmbtJkzwIfphoIlRcVEtfu1wkCje2MSO718xkByDlHLqbxJ6HYe0n-Qa8d80Wy-lUwMylUEYqcqWSitRITG65DLuRcrMn3jEwXG3JOEU5LhTZh64yQEKdI18dtZU2_FKKtlB6hKNOcta2LSagsW565uQQ0yybTWX_NSqBcR7lcZOfYeF5tAy9QtisqqsWbu3txge77hhVI2TDd-u-fxNz9OIU1UnyHAx5PnAU90hHLP-XTXqQoVZYbJ0NIQhzKqPDarxQ ,Age of the Cookie: 1296000
+2024-07-31 12:50:59 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 12:50:59 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDY0NTksImlhdCI6MTcyMjQxMDQ1OSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.T7N1WjlugWZ_nzATPxHKbXfLUZLdGD07Rua9E0CrbxzfqR3PU3CdqrnAV1kJfYsXmlA_IXU7Q_5TWwVrTwDZeZxfHPA-8NYMloa3A51tEiMGwp9p5QYhuuQQmMk4nkmhasAQc8Ad3Csu9IPNhByc_bFtjKlkPCkCo4ZCdxcNo65qzHYmmVsbwKywO5YbdOY6os2fiUSSQ-A4kxYa1hJ3Zkj0lKAZATIAP0EvpZFO4W0lE_qcI4EBCJSVRAd__N2PVjVitK1MR4Dju1B4xFasssI126DUkeUH3YPTJBBJKWHzpobnw4JTqLwCp1L3W0TjIo2bJRAKurvP0oKCxB2Xow ,Age of the Cookie: 1296000
+2024-07-31 13:06:16 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 13:06:16 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDczNzYsImlhdCI6MTcyMjQxMTM3Niwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Y03SloTc7yjCdjhUC7eSt_mqlWehfb0k6zaeoNBZ9uQuKdTbGcMeLO5K8Pen-FFt7ZkWdZxuJ1ZBiLuwSF1hC9Ixmrhng9tgCW73oJryIhyaYwWP4SQBdLRIy91lg3qh-UyP6q8JQvjFcVHJrleLuTQY8Fa8jkitfxuU2FRztfMiQCjP7clNS4MCFA1Dx0f4AxZOFcL5g8AHYQZmIjNlyFKmOehgDgdLfhXtyo0LqOooU9nm57EeIPbDjtBu7Yy62pKhKUP6NFY4Re3kH0ox3h-zMOo2Stap2GhgYBV7oOJSe2l9RnjdIaguYTuaUiS9jv0Woq71sWEg6zULzrshAg ,Age of the Cookie: 1296000
+2024-07-31 13:07:22 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 13:07:22 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDc0NDIsImlhdCI6MTcyMjQxMTQ0Miwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.QkkQfv9CAgGIubaAR2AZGjAXKR1ifMLzhSZRA1xd_dsz6u5Zx9el2d2O30EBeq3xF6rKC3RKkRmIKdL8ezxevGqkxomaHr67WpK_sbXTrwlHYwbMUZpgcSfv5gD9_7dTwrPpUOlNMHRBZvTGLQQEOFloXLMwlIlad1PklZ8imnZ7_DjXlf9yFUdhE_xNfGYSJA_rEJ6QLdofpdITSS-_6iKFRTCQpIVlG-Zo28owAev6gEE8hGBY9PZHpaLV0xwbBxNJe8z71kD4jhXln-FpTlPAYzySuS4BzU2Tb9nLf5cDV0VoiWGwxc_jK-DZQlmvlE0o0XVfGgwCP0aVjiSb6g ,Age of the Cookie: 1296000
+2024-07-31 13:09:24 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-31 13:09:24 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 34268 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-31 13:09:24 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 13:09:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31 13:09:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 4 JPA repository interfaces.
+2024-07-31 13:09:27 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-31 13:09:27 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2972 ms
+2024-07-31 13:09:27 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-31 13:09:28 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31 13:09:28 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31 13:09:28 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-31 13:09:29 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31 13:09:31 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31 13:09:31 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31 13:09:32 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31 13:09:33 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31 13:09:33 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-31 13:09:34 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-31 13:09:35 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 11.312 seconds (process running for 13.047)
+2024-07-31 13:11:10 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 13:11:10 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 34 ms
+2024-07-31 13:11:11 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 13:11:11 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 13:11:11 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 13:11:11 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$V3pD6GTAsYiCpbMAt7t2cu6i68fn.RNtuIWC.AafgXPae68a0eAum,RoleROLE_ADMIN'}]'
+2024-07-31 13:11:11 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 13:11:11 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 13:11:11 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MDc2NzEsImlhdCI6MTcyMjQxMTY3MSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.NGXEtf9TkRE7G93k9DMR9sk15UtdInol7ckjlTvqBPVGIs6642FguN8aor9YyoMX_YCYSUMrTvxnvosCURPDb6QupI2mB32BBm4Lt8V3fNGwIi-I8JdLixSOd9usJJO1YuCKDIv4DTMA8Kw0hCUbM0ZB6weA1pvLN64jDWreQbhZToI_s-2P29lcVCJ0kF7k4CyytqHxWEr7DdMw_XeIis6eTe8xPg_9kZYTZ-AkbcjCgVkY6DyFX4Ey2pYmd-BphVaerHGIpA7_upx3qOJjoomtbX8x6N62R1FlKwvKZYOicYZAQb0D3eVTQT5M1Z2vmbPSIaiaNvc1dE-xDeqDfw ,Age of the Cookie: 1296000
+2024-07-31 13:14:46 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 13:14:46 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 13:14:46 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 13:14:46 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$V3pD6GTAsYiCpbMAt7t2cu6i68fn.RNtuIWC.AafgXPae68a0eAum,RoleROLE_ADMIN'}]
+2024-07-31 13:14:46 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-31 14:13:51 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 14:13:51 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 14:13:51 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 14:13:51 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$V3pD6GTAsYiCpbMAt7t2cu6i68fn.RNtuIWC.AafgXPae68a0eAum,RoleROLE_ADMIN'}]
+2024-07-31 14:13:51 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 14:17:05 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 14:17:05 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 14:17:05 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 14:17:05 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$V3pD6GTAsYiCpbMAt7t2cu6i68fn.RNtuIWC.AafgXPae68a0eAum,RoleROLE_ADMIN'}]
+2024-07-31 14:17:05 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 14:24:55 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 14:24:55 [http-nio-8080-exec-1] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 14:24:55 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 14:24:55 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$V3pD6GTAsYiCpbMAt7t2cu6i68fn.RNtuIWC.AafgXPae68a0eAum,RoleROLE_ADMIN'}]
+2024-07-31 14:24:55 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 14:25:31 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-31 14:25:31 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 24124 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-31 14:25:31 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 14:25:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31 14:25:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128 ms. Found 4 JPA repository interfaces.
+2024-07-31 14:25:35 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-31 14:25:35 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3651 ms
+2024-07-31 14:25:35 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-31 14:25:36 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31 14:25:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31 14:25:36 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-31 14:25:36 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31 14:25:38 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31 14:25:38 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31 14:25:38 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31 14:25:39 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31 14:25:39 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-31 14:25:40 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-31 14:25:40 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 9.99 seconds (process running for 11.28)
+2024-07-31 14:34:40 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 14:34:41 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 184 ms
+2024-07-31 14:34:42 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 14:34:42 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 14:34:42 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 14:34:42 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$H//x9m11ai9EmW/gIJITkux/LMRoS5nmXpfrE95vMjLd9Du.OtSwO,RoleROLE_ADMIN'}]'
+2024-07-31 14:34:42 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 14:34:42 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 14:34:42 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTI2ODIsImlhdCI6MTcyMjQxNjY4Miwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.PBvTGc4XguHy4HeBrcBC8FoghpTA5cpcN-mKrdIPTYY0qdJDJoffEIGcpVP2uV4YMzGK-o-L2Prrz7pw4K1pqPKAkfErTAeTnHEkqmaTV3VsYNugS2B-03Ziq8rWOpdQ7MK8Ki--Nib4OIAQ_eiqU_76_pdI3fEfGLWz3EbivzLT90lTw5a1l-3WK7LkiE1sDO5SbwAGa_FU6TBMoB01un8xTCLSPwoYdmmTn_Mhcp_KhxATf6aULzeGwBFGxrzdEiUHDss9PM_ft55jG37-AGyRevcsHNJzoYGm6UtkrHX88YsoCbqney61wyDfjdMf4-htN_TaZodCkgOVxa-NsA ,Age of the Cookie: 1296000
+2024-07-31 14:39:06 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-31 14:39:06 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Starting JwtOauth2Application using Java 21.0.2 with PID 19748 (C:\Users\deepa\Downloads\jwt-oauth2\build\classes\java\main started by deepa in C:\Users\deepa\Downloads\jwt-oauth2)
+2024-07-31 14:39:06 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-31 14:39:07 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31 14:39:08 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2024-07-31 14:39:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-31 14:39:09 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2214 ms
+2024-07-31 14:39:09 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:atquilDB'
+2024-07-31 14:39:09 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31 14:39:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31 14:39:09 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-31 14:39:10 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31 14:39:11 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31 14:39:12 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31 14:39:12 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31 14:39:13 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31 14:39:13 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userInfoManagerConfig
+2024-07-31 14:39:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-31 14:39:14 [main] INFO  com.atquil.jwt_oauth2.JwtOauth2Application - Started JwtOauth2Application in 7.963 seconds (process running for 9.08)
+2024-07-31 14:39:28 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-31 14:39:28 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2024-07-31 14:39:29 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 14:39:29 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 14:39:29 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 14:39:29 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 14:39:29 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 14:39:29 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 14:39:29 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTI5NjksImlhdCI6MTcyMjQxNjk2OSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.b3uUcyelmX4p_8v9TwkQweOPzecMPNThX2eIW4MXb_dU1IDNTUNi4SeXwnwJcJ1KcSAb_ItuedH2jM1XozkGGD4kHrAOIav32py1C_qDgAc0pcPupo9jiyWJQVBO4l5xMy286rczdM2oNMESQLIuzaokBx4pkTARyrB1HA8Oe0WLAob4yCv_mB2m5fuNj7pl18EJc0hcFX_OLV6bm_sdvht01By_FrQZKO87wmVwniVGoaBxWZjgeeWlhxO44q7e3tT4SshOjLwL7xb3mfxNU0LQ0KZcQGKnDnwcCBvelUAYPNwON3FmdBnEGBh22KeMeirGQwb1V1-aRXQBlshqyg ,Age of the Cookie: 1296000
+2024-07-31 14:48:52 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-07-31 14:48:52 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=swetha, empEmailId=swethadeepak1418@gmail.com, empRole=Mobile-Application developer, salary=35222, mobile=8072564637, isNew=false)
+2024-07-31 14:48:52 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} swethadeepak1418@gmail.com
+2024-07-31 14:50:48 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Entering into addEmployee file.....
+2024-07-31 14:50:48 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - The Employee Payload is : EmpDto(emp_name=Deepak, empEmailId=swethadeepak1410@gmail.com, empRole=Mobile-Application developer, salary=35222, mobile=8072564637, isNew=false)
+2024-07-31 14:50:48 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - userName: Employee emial_id: {} swethadeepak1410@gmail.com
+2024-07-31 14:55:37 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 14:55:37 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 14:55:37 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 14:55:37 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 14:55:37 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 14:55:37 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 14:55:37 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTM5MzcsImlhdCI6MTcyMjQxNzkzNywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Tf8pbgHfcpD1KuULrfTQlMPonXzLZP8eO-vP71tHo2aCQQMzk2PYGB1_qflC6hF-z_dKRzSXb1kzxrm1ZbAHNpX3yhW6SpcG4N0xGA0Lb_0X1ZqJeWp38j2fcUXg9DnFhcBNGhm6RiZ-1GB0XUydcm_KhIgEj-FX4Cvu6u0eIoLfO1XeG4WbgRX21X7nVxX0d5fOAz3d_BHQ9Ujr9CLBKqDh-ILZY0daRY3ylPfQsBu8fDT8IzUKk4Gg-4EYpvsbk7mlPh1lNBjAqNJDHXY1T17RdwqLUaZtqfKfjlC8BuTRPEIHivr4uPrEaJOrTuB8PemGeI4bD4oCysJ0-k4LCA ,Age of the Cookie: 1296000
+2024-07-31 15:00:17 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 15:00:17 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 15:00:17 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 15:00:17 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 15:00:17 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 15:00:17 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 15:00:17 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTQyMTcsImlhdCI6MTcyMjQxODIxNywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.Y_zjDBld0PSVNGI0x6XKMe3b3CRu7ksfTdcfyhPhteYzCljnYxfs6PQ6HMfBHnDJy-yCxCR3twXvxxi9VbxT-7YVzkHeuSTskmB6A2pRlICBG2svgX7FgGHZx8qY4_GHoN9icXzJv-IzobOpfwE_TwVB6qSqKUyt9qTCJ8iTCmnG9BHbr9LLNW_SpVDsDLO3vrxkYGbBkRgtoCZjjS-ENh9lrKX-SO87Boq8p0tRPMNVl9wfNoQflBcpyurI7RRjWQttN5AE_aoklnPgJDNfM0LIBe0HO4avDsb8FEYTHVFh2LAKqmMFZ3BGCCob35t0th7j9DA_a97qU0FjUc6Q7Q ,Age of the Cookie: 1296000
+2024-07-31 15:05:33 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 15:05:33 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 15:05:33 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 15:05:33 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 15:05:33 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 15:05:33 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 15:05:33 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTQ1MzMsImlhdCI6MTcyMjQxODUzMywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.fl8wjmjI4RTcQEUV6tj4iqliOgZfwc928wXgWsJSQlptto1LLS_l08FoPpONOzvd6DzEhdEOmTjnUWS8mCklOcrpYQWWK4skHZG4b-xc2ZxLSamOzAVK7PNq54pQAnzSnb--Tn85dL8ElM4up0qW7PkI6DZBW2XDo87J-p5iJOYObojHSFF-LVHIOrJcJJdIV0J117k9yiuy5hbaJX1186JtvGr60sI4RDvvg044R41g20HINwnHaHXAQuI-CdFe6P7ZWQlqbkInOB8bleb-nUvhkqiDVzNsMLErjkckBYdsHsn2MKVdXfpbgyIH_tBBUKTjg_NtlCG6E4RSnlvOKA ,Age of the Cookie: 1296000
+2024-07-31 15:32:39 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 15:32:39 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 15:32:39 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 15:32:39 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 15:32:39 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 0:0:0:0:0:0:0:1
+2024-07-31 15:32:39 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 15:32:39 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTYxNTksImlhdCI6MTcyMjQyMDE1OSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.WdF26iRHZJ0kKivnbJdaIbLWhbsZASRaNWaIAuXUzqp8bSZyZ_IpfxwRq_kN8WuHcWdCmBLg8jfg7OQrVuwXYwT5w1RlBtF2b8I5LWWNVIu4yIUJg2FkTUgsDgRbqMq51y81fTgsiUUmtyQE_YV69rtmB3tdd9WPSkDpJzzxLETULUzgGpHoEE7tBogTe4XDqIPBALc5vHupQY2Qb-3iSFopvOYt1h5KDF0HnxYVKjFAYqrg3N9_BplBbHD2GCfCx6joKnv-RNknRAbkbqbUX_sem40rXUi6t9etE0r65Z4MaFj4i_1t5EOUhonNgVwltRpmycMtAtqUCh8fLleBxw ,Age of the Cookie: 1296000
+2024-07-31 15:38:59 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 15:38:59 [http-nio-8080-exec-1] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 15:38:59 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 15:38:59 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 15:38:59 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.29.88
+2024-07-31 15:40:12 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 15:40:12 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 15:40:12 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 15:40:12 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 15:40:12 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.29.88
+2024-07-31 15:40:12 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 15:40:12 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTY2MTIsImlhdCI6MTcyMjQyMDYxMiwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.qrhVgDVgiRFyRjUk7RwuolankbK2c-0ye1WaQes2oNj1K0v6ASDuNSntj2FydYz69JZY5Fryixy8cVdhO4rXPbdYlalE7ZZpMYef64_P4ZbrEUMRVb73JackXvTbqWTtjLKXFYVtlpdljjzjllI5QqzabHSmq-uxlf-FmrdW4TaCe_R0zk8j1dOZkVJZrmNTPxZ7Mma9UV0u6sudNWLR7EDEPMlrrsjRGib5g-PR1RZAhB4c7WM4mwl-lrkp5WnFwCjh2coY9INesQoU6J1k5Q1RAq7nFKJPQUF3Z6Zkhyyq5q5HFNV6VSFidYoCtqtT-2yfB9sCadoOn2vqwr2lhg ,Age of the Cookie: 1296000
+2024-07-31 15:55:01 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 15:55:01 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 15:55:01 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 15:55:01 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 15:55:01 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.29.88
+2024-07-31 15:55:01 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 15:55:01 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTc1MDEsImlhdCI6MTcyMjQyMTUwMSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.HU2xyKcJN9t7SE2NdaBlX9NAIRe9uxYrsHGhaidPcwvfzj7oi-_ZIYO5jJmXyBUo30RC2EvgPtV9UZPqV34zE3Te0kHUUe_19N9NB5c1FcObp-QFSNe2Y2Erx2KXjbUYpBUKZlyx_4ZF5IEPEAO2aK2BB9CmUW_uJQIxWaqX5ukrZhWEUArMTq_bikvM2ZZ9VdaAoG6XDExUOCD_TDO0haWpyF2U50HfnJJKLlyeqEZF5cNwcdNQphdvlie1_JBJT-qD__q-he2QRcmQOe756KUNC-hi8mi-S3A07x20vny9EKww8KrersLM1yAW0D5e3jhQCUkfZrOvxAPudaP4Dg ,Age of the Cookie: 1296000
+2024-07-31 16:24:57 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 16:24:57 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 16:24:57 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 16:24:57 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 16:24:57 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 16:24:57 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 16:24:57 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTkyOTcsImlhdCI6MTcyMjQyMzI5Nywic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.ib2kP_YV3MZjcppOPjQJPHhKUkKn4F4bW_Sax0l3_U2BlU974lcD9mHq-GPMRsf10R_xd92GvVsxHTJM6sWtQmF4sV5j_zWI7Pi_NegP_-NqQNwR6dmSEMG2yCv7WMldtAkq3YkKGvePJpvYZMtZ3xwPc-8VFWycqH4QIwP2bdaZOSXDDdoZMnnq7OSNChPZ55C_FEIu2NGQTD7cWTJZwwEnZdY2CCww9yNDz0b0fRhROnbACG2auMGVPSml15Sp6vZxKbulLQzn1nzYQSoG4LvF6oB-OjU2M1o6shlUR0dYoEuD22HFoAKkUYm3MiagGvanTgMDpokrvgoQDYzXRQ ,Age of the Cookie: 1296000
+2024-07-31 16:28:19 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 16:28:19 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 16:28:19 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 16:28:19 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 16:28:19 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 16:30:40 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 16:30:40 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 16:30:40 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 16:30:40 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 16:30:40 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 16:30:40 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 16:30:40 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MTk2NDAsImlhdCI6MTcyMjQyMzY0MCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.CJH0mzVXVrxTwqwX5y1J49V07QEfPQMW9eZnyLAaT818oPGmfTux3fY5KvDOsNsBPPdxy376rfszBeQimVbkkqvgMcqqLhB1_0Kdz69WKYg3I-kQJXkrZT4UIHmyAYXxmXG5xySRXWF3foc-LrIj5-P1fX4ExR5KtaUMCK_Vjy9tqiGIlJZipBc1TyafBvrgqgPrdOqsfIOFPjsDjomxigJRq-MLziLwFuQ7sWUbunzRtIdZqxpwWZ8WNaiZRSovcGdqTzAlDl_WGNKKR0ynFoKhb-UXWfQOw_SXVr2pf223Ek6gPeV0FtAtEc9Lp-96xQjE8PZ4tQw4RbLRL-QFKg ,Age of the Cookie: 1296000
+2024-07-31 16:48:15 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 16:48:15 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 16:48:15 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 16:48:15 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 16:48:15 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 16:48:15 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 16:48:15 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MjA2OTUsImlhdCI6MTcyMjQyNDY5NSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.XIs5EZB0mvk_HQa3dQDClI1n709vSO5enl5FhSzgLtp4SAzqVj07v_5dbtkrN1UwkkwXNZXF0iMszV3NlwoSPEGRIWgXwk5iC9_WAsDc5L2sn10T3AaJb2kk87lb-t-HMnfPZybxG5kmRhCgCZo8ufV6eGZO2XKdCdwKFBTv_h0Xa9KM7vt61iNkCAVUj34H1T6Kr6cDYremCPsqRsVUomnfeGlE8hWGXmtNDrEVXVp8oJxX3Aa5hugh5Q0j_gBI3UjafBnaqqUpLWMS3JfzEPAUClsk7kHoSrn7fg-aadS0oP8859xDpJA5pbk5TkwgnZOQ6cur1U6pJdkc2bBnVQ ,Age of the Cookie: 1296000
+2024-07-31 16:59:50 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 16:59:50 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 16:59:50 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 16:59:50 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 16:59:50 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 16:59:50 [http-nio-8080-exec-1] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 16:59:50 [http-nio-8080-exec-1] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MjEzOTAsImlhdCI6MTcyMjQyNTM5MCwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.iMTofOiGNpog8zY0-VJcKeiKUXT3FpyqrwaxvmzvN7HIwjqHPUEGd9z-ymkGvmE0Ld59Ct8CSEKSf3gYHy7VKc1iNFlwePkNuYrw-SirwRJHtaXWF3ec_gufTbOCqh8b6s8q1nqweH8exE14uQyvATLRvMxnXjCRf1TSyeQKIlKUaBBO-lY3Aj4xVj7KPsEvuL-paTRhXkE2skGkLedLVcdH91JFQ9WA0puHke47lkLrM4qeTgRT48e-e_UbR6TLIMg8PDvm5fkoR_Fwv1S5-JFlX6lhPtVN94GURAw90v6yz6z2N_mCP53_uozGtz9s3EcfOAgEVhWhiXuhOSBYsw ,Age of the Cookie: 1296000
+2024-07-31 17:06:15 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 17:06:15 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 17:06:15 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 17:06:15 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 17:06:15 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:06:15 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 17:06:15 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MjE3NzUsImlhdCI6MTcyMjQyNTc3NSwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.PagBBq4TYwmgKOnIDjPQhXctUopl78IFtiI8r_mKRRwoeo1e0l7NKBNZMybbOuFiHgePVZwgwtEOZcp8XAtYpYJagDMf86Dtm6eLHhJPAO7vBJ97VsDNk6rZa12GPGdz1VEpNu5dguQvV5nsBd2NMl3xUDPdm9VvHK3nzSgqVhgxAR1b22rpFLCq6Vemzkr2MBH4hM0FPFWk8Jv69A3-cvJhtVaaUm8khflbynaJukqT9Kr6g1u5gA2Br6ovlwwuO36YhgAU0EWIjoGHqRMmlCQuEc5TPd2UWNzKHMA1iHkzp5tiZ0-L3wxKuk_uvwu7UfALz4sh-_s6KgxlzJ1siw ,Age of the Cookie: 1296000
+2024-07-31 17:07:33 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:07:33 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:07:33 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:07:33 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:07:33 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:11:06 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:11:06 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:11:06 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:11:06 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:11:06 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:17:48 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:17:48 [http-nio-8080-exec-10] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:17:48 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:17:48 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:17:48 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:18:14 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:18:14 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:18:14 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:18:14 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:18:14 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:19:25 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:19:25 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:19:25 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:19:25 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:19:25 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:23:09 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:23:09 [http-nio-8080-exec-10] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:23:09 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:23:09 [http-nio-8080-exec-10] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:23:09 [http-nio-8080-exec-10] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:37:01 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:37:01 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:37:01 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:37:01 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:37:01 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:42:12 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:42:12 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:42:12 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:42:12 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:42:12 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:45:28 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:45:29 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:45:29 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:45:29 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:45:29 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:46:04 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:46:04 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:46:04 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:46:04 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:46:04 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:49:11 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:49:11 [http-nio-8080-exec-6] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:49:11 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:49:11 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:49:11 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:49:20 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:49:20 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:49:20 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:49:20 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:49:20 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:49:28 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:49:28 [http-nio-8080-exec-7] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:49:28 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:49:28 [http-nio-8080-exec-7] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:49:28 [http-nio-8080-exec-7] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:49:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:49:43 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:49:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:49:43 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:49:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:49:56 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:49:56 [http-nio-8080-exec-8] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:49:56 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:49:56 [http-nio-8080-exec-8] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:49:56 [http-nio-8080-exec-8] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:50:17 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:50:17 [http-nio-8080-exec-2] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:50:17 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:50:17 [http-nio-8080-exec-2] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:50:17 [http-nio-8080-exec-2] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:50:24 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:50:24 [http-nio-8080-exec-5] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:50:24 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:50:24 [http-nio-8080-exec-5] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:50:24 [http-nio-8080-exec-5] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:50:29 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:50:29 [http-nio-8080-exec-6] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:50:29 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:50:29 [http-nio-8080-exec-6] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:50:29 [http-nio-8080-exec-6] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:50:35 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:50:35 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:50:35 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:50:35 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:50:35 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:51:35 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:51:35 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:51:35 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:51:35 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:51:35 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:51:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 17:51:43 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 17:51:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 17:51:43 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 17:51:43 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:54:02 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: []
+2024-07-31 17:54:02 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com LOGIN is done!!!
+2024-07-31 17:54:02 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login status Successfull
+2024-07-31 17:54:02 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :'Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]'
+2024-07-31 17:54:02 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 17:54:02 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - Refresh Token created for : Admin 
+2024-07-31 17:54:02 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Refresh token Stored in Cookie: eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdHF1aWwiLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJleHAiOjE3MjM3MjQ2NDIsImlhdCI6MTcyMjQyODY0Miwic2NvcGUiOiJSRUZSRVNIX1RPS0VOIn0.VwLHCgw_Azq6yUlgNRnb5EccCrtfeGj_REZY153O_pKKYAjTRpxSaFUSVZnpqetXUApcEjaK60f2PYQQF1mX5jwoCih8IRgCZmi7DJ1HrRH8DfofjwTuclHr1UlAUBGA7Yn68-Lw11A7CiONZdkgTPJkKy1Z0wJQNiupF7E8jxrZuRP3nmvB0HHwroJVMzOSJ7I2j_a7_YUp18QpInyVPHhv1MkmKO47GviE6ffBIO-ImMZcC3QKaNhFZ-5yzbDck_2dO6ryhVJ3BLdoWhrj-vBDq_572MxwS0_xkRaer9WZaAYyUnr4aMmt_GTjm03xgPasbOQXq_cjM-9AmNH9Vw ,Age of the Cookie: 1296000
+2024-07-31 18:02:23 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 18:02:23 [http-nio-8080-exec-4] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 18:02:23 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 18:02:23 [http-nio-8080-exec-4] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 18:02:23 [http-nio-8080-exec-4] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 18:02:47 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 18:02:47 [http-nio-8080-exec-3] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 18:02:47 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 18:02:47 [http-nio-8080-exec-3] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 18:02:47 [http-nio-8080-exec-3] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124
+2024-07-31 18:03:04 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - List User names: [Admin]
+2024-07-31 18:03:04 [http-nio-8080-exec-9] ERROR com.atquil.jwt_oauth2.logClass.LogFile - User admin@admin.com tried to LOGIN already exists!!!, 
+2024-07-31 18:03:04 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - Login Status Failed
+2024-07-31 18:03:04 [http-nio-8080-exec-9] DEBUG com.atquil.jwt_oauth2.logClass.LogFile - user details :Optional[UserInfoEntity{id=2, username='Admin,Email_Idadmin@admin.com,Password$2a$10$5kAm9iGg2KqqudGqolpfZeoEhwAC9mDVjitYxGuBeYIJ0WLldSLaC,RoleROLE_ADMIN'}]
+2024-07-31 18:03:04 [http-nio-8080-exec-9] INFO  com.atquil.jwt_oauth2.logClass.LogFile - IP Address: 192.168.0.124

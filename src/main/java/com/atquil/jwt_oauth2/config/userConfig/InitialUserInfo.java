@@ -2,6 +2,7 @@ package com.atquil.jwt_oauth2.config.userConfig;
 
 import com.atquil.jwt_oauth2.entity.UserInfoEntity;
 import com.atquil.jwt_oauth2.repo.UserInfoRepo;
+import com.atquil.jwt_oauth2.roles.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
@@ -20,23 +21,29 @@ public class InitialUserInfo implements CommandLineRunner {
     public void run(String... args) throws Exception {
         UserInfoEntity manager = new UserInfoEntity();
         manager.setUserName("Manager");
+        manager.setRoles(Role.MANAGER);
         manager.setPassword(passwordEncoder.encode("managerPass"));
-        manager.setRoles("ROLE_MANAGER");
         manager.setEmailId("manager@manager.com");
 
         UserInfoEntity admin = new UserInfoEntity();
         admin.setUserName("Admin");
+        admin.setRoles(Role.ADMIN);
         admin.setPassword(passwordEncoder.encode("adminPass"));
-        admin.setRoles("ROLE_ADMIN");
         admin.setEmailId("admin@admin.com");
 
         UserInfoEntity user = new UserInfoEntity();
         user.setUserName("User");
+        user.setRoles(Role.USER);
         user.setPassword(passwordEncoder.encode("userPass"));
-        user.setRoles("ROLE_USER");
         user.setEmailId("user@user.com");
 
-        userInfoRepo.saveAll(List.of(manager,admin,user));
+        UserInfoEntity user2 = new UserInfoEntity();
+        user2.setUserName("Deepak");
+        user2.setRoles(Role.USER);
+        user2.setPassword(passwordEncoder.encode("1402"));
+        user2.setEmailId("deepak@dpk.com");
+
+        userInfoRepo.saveAll(List.of(manager,admin,user,user2));
 
 
     }

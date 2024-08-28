@@ -1,5 +1,6 @@
 package com.atquil.jwt_oauth2.dto;
 
+import com.atquil.jwt_oauth2.roles.*;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
@@ -22,5 +23,11 @@ public class AuthResponseDto {
 
     @JsonProperty("user_name")
     private String userName;
+
+    @JsonProperty("emailId")
+    private String emailId;
+
+    @JsonProperty("role")
+    private Role role;
 
 }

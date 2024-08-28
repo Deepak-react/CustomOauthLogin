@@ -8,6 +8,7 @@ import jakarta.servlet.http.*;
 import lombok.*;
 import org.apache.logging.log4j.*;
 import org.apache.logging.log4j.Logger;
+import org.springframework.security.core.*;
 import org.springframework.stereotype.*;
 
 
@@ -72,6 +73,10 @@ Logger logger = LogManager.getLogger(LogFile.class);
     public void basicLogs(EmployeeEntity employee){
         logger.info("The employee entity is : {}",employee);
     }
+    public void basicLogs(Authentication employee){
+        logger.info("The Authentication object is : {}",employee);
+    }
+
 
 
 }

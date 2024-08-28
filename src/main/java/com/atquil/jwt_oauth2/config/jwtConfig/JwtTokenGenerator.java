@@ -28,7 +28,15 @@ public class JwtTokenGenerator {
 
         String roles = getRolesOfUser(authentication);
 
+
+        System.out.println("The roles are: "+ roles);
+        System.out.println("The Granted authorities are: "+ authentication.getAuthorities());
+
+
         String permissions = getPermissionsFromRoles(roles);
+        System.out.println("The permissions are: "+ permissions);
+
+
 
         JwtClaimsSet claims = JwtClaimsSet.builder()
                 .issuer("atquil")
@@ -66,11 +74,10 @@ public class JwtTokenGenerator {
         Set<String> permissions = new HashSet<>();
 
         if (roles.contains("ROLE_ADMIN")) {
-            permissions.addAll(List.of("READ", "WRITE", "DELETE"));
-
+            permissions.addAll(List.of("READ", "WRITE", "DELETE", "UPDATE"));
         }
         if (roles.contains("ROLE_MANAGER")) {
-            permissions.add("READ");
+            permissions.addAll(List.of("READ", "WRITE"));
         }
         if (roles.contains("ROLE_USER")) {
             permissions.add("READ");
